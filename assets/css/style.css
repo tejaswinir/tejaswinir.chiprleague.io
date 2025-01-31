@@ -1,0 +1,692 @@
+.kanit-light {
+    font-family: "Kanit", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.kanit-extralight {
+    font-family: "Kanit", serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.kanit-regular {
+    font-family: "Kanit", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.kanit-extrabold {
+    font-family: "Kanit", serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.kanit-black {
+    font-family: "Kanit", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.kanit-regular-italic {
+    font-family: "Kanit", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+:root {
+    --blue: #3AA8CC;
+    --pink: #F29DAA;
+    --teal: #233D4D;
+    --grey: #D9D9D9;
+    --green: #30A56E;
+    --orange: #EC5E25;
+    --purple: #83507E;
+}
+
+/*Utils class*/
+
+
+
+.pt-117 {
+    padding-top: 117px;
+}
+
+.py-150 {
+    padding: 150px 0
+}
+
+.py-113 {
+    padding-top: 113px;
+    padding-bottom: 113px;
+}
+
+.py-98 {
+    padding: 98px 0;
+}
+.py-70{
+    padding: 70px 0;
+}
+.p-80{
+    padding: 80px 5em;
+}
+.px-113{
+    padding: 0 7.375em;
+}
+
+.bg-teal {
+    background-color: var(--teal);
+}
+.bg-black {
+    background-color: #000;
+}
+
+.bg-blue {
+    background-color: var(--blue);
+}
+
+.bg-white{
+    background-color: #fff;
+}
+
+.blue-text {
+    color: var(--blue);
+    /* Blue color */
+}
+.teal-text{
+    color: var(--teal)
+}
+.pink-text{
+    color: var(--pink)
+}
+
+.w-80{
+    width: 80%;
+}
+
+body {
+    font-size: 16px;
+    font-family: "Kanit", serif;
+    color: white;
+}
+
+body,
+header {
+    background-color: black;
+}
+
+.navbar {
+    background-color: #000;
+    height: 112px;
+    padding: 0;
+}
+
+.navbar .nav-link {
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Kanit", serif;
+    font-weight: 800;
+    font-size: 1.063em;
+    line-height: 130.5%;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+    color: #3AA7CB;
+}
+
+.navbar .logo {
+    width: 112px;
+    height: 85px;
+    background-image: url(../img/logo.png);
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.navbar .navbar-brand {
+    margin-right: 3.25em;
+    margin-top: 22px
+}
+
+.home-screen-bg {
+    background-image: url(../img/home-screen-bg.png);
+    background-size: cover;
+    background-position: 25% center;
+}
+
+.home-screen-bg-2 {
+    background-image: url(../img/home-screen-bg-2.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.home-content-wrap {
+    width: 640px;
+    margin: auto;
+    font-family: "Kanit", serif;
+}
+
+.home-content-wrap h5 {
+
+    font-weight: 900;
+    font-size: 2.5em;
+    line-height: 84.5%;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.home-content-wrap h1 {
+    font-weight: 900;
+    font-size: 10.5em;
+    line-height: 84.5%;
+    color: var(--blue);
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.home-content-wrap h4 {
+    font-size: 4.622rem;
+    line-height: 91.5%;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.home-content-wrap p {
+    font-weight: 100;
+    font-size: 1.719em;
+}
+
+.header-section-height {
+    min-height: 100vh;
+    padding-top: 112px;
+}
+
+.scrolling-pane {
+    background-color: var(--blue);
+    height: 95px;
+    width: 100%;
+    /* position: absolute;
+    bottom: 0; */
+    display: flex;
+    align-items: center;
+}
+
+
+
+.home-card-section {
+    row-gap: 50px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.home-card-section .card-wrapper {
+    width: 100%;
+    background-color: var(--pink);
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    height: 100%;
+}
+
+.home-card-section .card-custom {
+    width: 100%;
+    border: 1px solid #fff;
+    position: absolute;
+    left: 10px;
+    height: 100%;
+    top: 10px;
+    background-color: transparent;
+}
+
+.home-card-section .card-wrap-1 {
+    padding-left: 100px;
+    padding-right: 50px;
+}
+
+.home-card-section .card-wrap-1 p {
+    padding-right: 150px;
+}
+
+.home-card-section .card-wrap-2 {
+    padding-left: 70px;
+    padding-right: 50px;
+}
+
+.home-card-section .card-wrapper h3 {
+    font-size: 3em;
+    line-height: 106.5%;
+    color: #fff;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.home-card-section .card-wrapper h3 .sub-head {
+    color: #000
+}
+
+.footer {
+    width: 80%;
+    height: 298px;
+    margin: auto;
+    background-image: url(../img/BrandBook-ChiprLeague_212.25\ 2.svg);
+    background-size: contain;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+
+}
+
+.section-header {
+    width: 100%;
+    height: 800px;
+}
+
+.season-screen-bg {
+
+    background-image: url(../img/season-header-bg.png);
+    background-size: cover;
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+.season-section-2-img {
+    width: 50%;
+    background-color: #000;
+    background-image: url(../img/season-img-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    top: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    transition: all 2s;
+}
+
+
+
+.season-section .content-wrap {
+    width: 85%;
+    margin: auto;
+}
+
+.season-section h3 {
+    background-image: url(../img/calendar.png);
+    background-size: 48px 48px;
+    background-position: left center;
+    font-size: 3em;
+    font-weight: 900;
+    background-repeat: no-repeat;
+    padding-left: 100px;
+    text-transform: uppercase;
+    line-height: 94.5%;
+    margin-bottom: 30px;
+}
+
+.season-section h2 {
+    font-weight: 900;
+    font-size: 6em;
+    line-height: 94%;
+    text-transform: uppercase;
+    color: var(--pink)
+}
+
+.season-section .wrapper {
+    width: 100%;
+    padding: 160px 0;
+    position: relative;
+}
+
+.season-section h4 {
+    font-weight: 800;
+    font-size: 3.75em;
+    line-height: 88%;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.season-section p {
+    font-weight: 400;
+    font-size: 2.0625em;
+    line-height: 1.2
+}
+
+.masionary-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-item {
+    width: calc(23.33% - 10px);
+    /* Adjust column width */
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.grid-item img {
+    width: 100%;
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+/* Hover Effect */
+.grid-item:hover img {
+    transform: scale(1.1);
+}
+
+/* Overlay Effect */
+.grid-item::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.grid-item:hover::after {
+    opacity: 1;
+}
+
+.masionary-wrap {
+    position: relative;
+}
+
+.masionary-wrap .text {
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 3.625em;
+    line-height: 90%;
+}
+
+.masionary-wrap .text1,
+.masionary-wrap .text3,
+.masionary-wrap .text6,
+.masionary-wrap .text5 {
+    bottom: 54px;
+    left: 52px
+}
+
+.masionary-wrap .text2 {
+    top: 10px;
+    right: 34px
+}
+
+.masionary-wrap .text4,
+.masionary-wrap .text8,
+.masionary-wrap .text7 {
+    left: 52px;
+    top: 10px
+}
+
+.chipr-league-bg {
+    background: url("../img/chipr-league-bg.png") center/cover no-repeat;
+    padding-left: 15%;
+}
+
+.brand-logo-big {
+    width: 200px;
+    height: 200px;
+    background: url("../img/logo-big.svg") center/contain no-repeat;
+}
+
+.chipr-league .section-header h1 {
+    font-weight: 900;
+    color: var(--blue);
+    text-transform: uppercase;
+    line-height: normal;
+}
+
+.splide_wrapper {
+    padding: 114px 0;
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.title {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    gap: 5px;
+}
+
+.title-center{
+    justify-content: center;
+}
+
+
+
+.line {
+    flex: 1;
+    height: 2px;
+    background-color: var(--blue);
+    /* Line color */
+    margin: 0 10px;
+}
+
+.splide__pagination {
+    bottom: -30px;
+}
+
+.splide__pagination__page {
+    width: 12px;
+    height: 12px;
+    background-color: var(--grey);
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+.splide__pagination li:nth-child(1) .splide__pagination__page.is-active {
+    background-color: var(--pink);
+}
+
+.splide__pagination li:nth-child(2) .splide__pagination__page.is-active {
+    background-color: var(--green)
+}
+
+.splide__pagination li:nth-child(3) .splide__pagination__page.is-active {
+    background-color: var(--orange)
+}
+
+.splide__pagination li:nth-child(4) .splide__pagination__page.is-active {
+    background-color: var(--purple);
+}
+
+.splide__slide.is-active.is-visible {
+    border: 2px solid var(--blue);
+}
+
+.splide__slide.is-active.is-visible::after {
+    content: '';
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/check.svg");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.levelup {
+    width: 4242px;
+    height: 95px;
+    background: url("../img/ChiprLeague.svg") center/contain no-repeat;
+}
+
+.chipr-league h4{
+    font-weight: 800;
+    font-size: 3.5em;
+    color: var(--pink);
+    text-transform: uppercase;
+    margin-bottom: 0;
+    line-height: 1;
+    padding-right: 2%;
+    margin-bottom: 44px;
+}
+.chipr-league p {
+    font-size: 2.0625em;
+    line-height: 1.1;
+}
+.league-wrap{
+    max-width: 50%;
+    position: relative;
+}
+.league-wrap:nth-child(1) {
+    margin-right: 8%
+}
+.league-wrap::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-position: right top;
+    background-size: 71px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    right:-20%
+}
+.league-wrap:nth-child(1)::after{
+   
+    background-image: url("../img/refresh.svg");
+}
+.league-wrap:nth-child(2)::after{
+   
+    background-image: url("../img/shuttle.svg");
+    right:-2%
+}
+.league-wrap:nth-child(2) {
+    margin-left: 8%
+}
+
+.seasonal-award-section {
+    width: 100%;
+    background: url("../img/seasonal-award-bg.png") center/cover no-repeat;
+    text-align: center;
+}
+.seasonal-award-section h4{
+    font-size: 3.5em;
+    font-weight: 800;
+    color: #fff;
+    margin-top: 47px;
+    line-height: 1;
+}
+
+.seasonal-award-section p {
+    font-weight: 400;
+    font-size: 1.75em;
+    line-height: 1;
+}
+.seasonal-award-section .flex-item{
+    text-align: center;
+    max-width: 265px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+.seasonal-award-section .flex-item p {
+    margin-top: 44px
+}
+
+.tiers-section p{
+    color: #000;
+    font-size: 1.4375em;
+    line-height: 1;
+    font-weight:400 ;
+}
+.tiers-section h5{
+    font-size: 2.0625em;
+    font-weight: 900;
+    line-height: 1;
+}
+
+.tiers-section p.small{
+    font-size: 1.4375em;
+    font-weight: 100;
+}
+.tiers-section p .big{
+    font-size: 3.5em;
+    font-weight: 100;
+}
+
+.league-section p, .league-section .box li {
+    font-size: 1.75em;
+    line-height: 1.1;
+    font-weight: 400;
+}
+
+.league-section .box {
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.league-section .box h5{
+    font-size: 2em;
+    font-weight: 900;
+   
+    line-height: 0.9;
+    text-transform: uppercase;
+    margin-bottom: 48px;
+}
+.league-points-section{
+    color: #000
+}
+.league-points-section h5{
+    font-size: 3.5em;
+    font-weight: 900;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-bottom: 52px;
+}
+
+.league-points-section .list{
+    padding-left: 122px;
+    background-size: 10%;
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+
+.league-points-section .list.item-1{
+    background-image: url("../img/01.svg");
+}
+.league-points-section .list.item-2{
+    background-image: url("../img/02.svg");
+}
+
+.league-points-section .list p{
+    font-size: 2.0625em;
+}
+.league-points-section .list h6{
+    font-weight: 900;
+    font-size: 2.0625em;
+}
+.chipr-league .last-section p {
+    font-size: 1.75em;
+}
+
+@media screen and (min-width: 680px) {
+
+    .seasonal-award-section .flex-item:nth-child(n+5){
+        padding-top: 112px;
+    }
+}
