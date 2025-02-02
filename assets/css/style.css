@@ -1011,7 +1011,7 @@ h2{
 .faq-section .section-header{
     width: 100vw;
     height: 80vh;
-    background: transparent url("../img/faq-bg.png") center/cover no-repeat;
+    background: transparent url("../img/faq-bg.png") center/cover no-repeat fixed;
     position: relative;
     margin-bottom: 4.635vw;
 }
