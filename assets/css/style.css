@@ -137,10 +137,13 @@ header {
     background-color: black;
 }
 
+
+
 .navbar {
     background-color: #000;
     height: 112px;
     padding: 0;
+    transition:  all 0.4s ease-in-out
 }
 
 .navbar .nav-link {
@@ -163,13 +166,33 @@ header {
     background-image: url(../img/logo.png);
     background-size: cover;
     background-position: center bottom;
+
+}
+.navbar .navbar-nav{
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
 }
 
 .navbar .navbar-brand {
     margin-right: 3.25em;
-    margin-top: 22px
+    margin-top: 22px;
+    transition:  all 0.4s ease-in-out
+}
+.shrink {
+    height: 60px;
+}
+.shrink .logo{
+    width: 56px;
+    height: 43px;
+}
+.shrink .navbar-brand, .shrink .navbar-nav{
+    margin-top: 0;
 }
 
+.shrink .navbar-brand{
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+}
 /*headers*/
 h1{
     font-size: 4.695vw;
@@ -490,7 +513,7 @@ h2{
 
 .title {
     color: white;
-    font-size: 2rem;
+    font-size: 3.125vw;
     font-weight: bold;
     text-transform: uppercase;
     display: flex;
@@ -1023,7 +1046,45 @@ h2{
     padding-top: 10.417vw;
     padding-bottom: 8.385vw;
 }
+.faq-wrapper .tab-pane .tab-content{
+    width: 55%;
+}
+.faq-wrapper .tab-pane .nav-pills .nav-link{
+    padding-right: 60px;
+    position: relative;
+    font-size: 1.146vw;
+}
+.faq-wrapper .tab-pane .nav-pills .nav-link.active{
+    background-color: transparent;
+    color: var(--pink);
+    position: relative
+}
+.faq-wrapper .tab-pane .nav-pills .nav-link.active::after{
+    content: "\27F6"; /* Unicode for FontAwesome user icon */
+    font-family: "Font Awesome 6 Free";
+    position: absolute;
+    right:0;
+    top: 30%;
+    transform: translateY(-50%);
+    font-size: 40px;
+    line-height: 1;
 
+}
+.faq-wrapper .tab-pane .nav-pills .nav-link{
+    text-align: left;
+    color: #fff
+}
+.faq-wrapper .tab-content p {
+    font-weight: 400;
+    font-size: 1.146vw;
+}
+.faq-wrapper h6 {
+    font-size: 1.719vw;
+}
+.faq-section .form-label, .faq-section .form-control{
+    font-size: 1.094vw;
+    font-weight: 100;
+}
 @media screen and (min-width: 680px) {
 
     .seasonal-award-section .flex-item:nth-child(n+5){
