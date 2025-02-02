@@ -16,12 +16,13 @@
         rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg fixed-top">
+        <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
                     <div class="logo"></div>
@@ -31,7 +32,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarToggle">
-                    <ul class="navbar-nav  mb-2 mb-lg-0 mt-5">
+                    <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="season-in-spotlight.html">Season in Spotlight
                             </a>
@@ -58,8 +59,8 @@
             <div class="header-tab spring-bg position-relative">
                 <div class="swag-head">
                     <h1>
-                        <span class="reg">Earn the Swag,</span><br/> 
-                        <span class="bold"> Flaunt Your Success!</span>
+                        <span class="reg" data-aos="fade-up">Earn the Swag,</span><br/> 
+                        <span class="bold" data-aos="fade-up"> Flaunt Your Success!</span>
                     </h1>
                 </div>
             </div>
@@ -79,128 +80,205 @@
             </div> -->
 
         </section>
-        <section class="swag-tabs w-85 m-auto">
+        <section class="swag-tabs w-85  m-auto">
             <div class="w-75 m-auto d-flex justify-content-between align-items-center" style="gap:0.52vw;">
-                <div class="swag-tab tab-spring">
+                <div class="swag-tab tab-spring" data-aos="flip-up">
                 </div>
-                <div class="swag-tab tab-summer">
+                <div class="swag-tab tab-summer" data-aos="flip-up">
 
                 </div>
-                <div class="swag-tab tab-fall">
+                <div class="swag-tab tab-fall" data-aos="flip-up">
 
                 </div>
-                <div class="swag-tab tab-winter">
+                <div class="swag-tab tab-winter" data-aos="flip-up">
                 </div>
             </div>
 
-            <div class="row g-1">
-                <div class="col-sm-12 col-md-4 h-100 text-center tab-space">
+           <div class=" tab-space  d-none d-md-block">
+            <div class="overflowing-contianer">
+                <div class="swag-25">
                     <div class="col-wrap col-wrap1">
                         <div class="level-icon lvl1">
                         </div>
-                        <h4>Base <br />
+                        <div class="swag-col">
+
+                        
+                        <div class="px-4 hide text-center">
+                        <h4 data-aos="fade-up">Base <br />
                             Prize Pack</h4>
-                            <div class="d-flex flex-wrap align-items-stretch justify-content-center" style="gap:0.22vw;">
+                            <div class="d-flex flex-wrap align-items-stretch justify-content-center" style="gap:0.22vw;" data-aos="fade-up">
                                 <div class="flex-item" style="width: 23.9%;">hat</div>
-                                <div class="flex-item" style="width: 74.9%;">Light Jacket</div>
+                                <div class="flex-item" style="width: 73.9%;">Light Jacket</div>
                             </div>
+                            <div class="lh-1 text-center" data-aos="fade-up">+</div>
                             <div class="d-flex flex-wrap align-items-stretch justify-content-center"
-                                style="gap:0.22vw; margin-top: 0.22vw;  margin-bottom: 2.45vw;">
+                                style="gap:0.22vw;margin-bottom: 2.45vw;" data-aos="fade-up">
                                 <div class="flex-item w-100">Short-Sleeve Tee</div>
-                                <div class="flex-item w-100">$25 Chipr Store Credit</div>
+                                <div class="lh-1" data-aos="fade-up">+</div>
+                                <div class="flex-item w-100" data-aos="fade-up">$25 Chipr Store Credit</div>
                             </div>
                         <div class="w-85 m-auto">
                             <div class="d-flex align-items-center justify-content-evenly flex-row">
-                                <div class="pr-4">
-                                    <h5 class="blue-text">D2D</h5>
+                                <div class="pr-4 flex flex-column align-items-center justify-content-center" data-aos="zoom-in-right">
+                                    <h5 class="blue-text" >D2D</h5>
                                     <p class="small"><span class="big">40</span>pts.</p>
                                 </div>
-                                <div class="ml-4">
+                                <div class="ml-4" data-aos="zoom-in-left">
                                     <h5 class="pink-text">MDU</h5>
                                     <p class="small"><span class="big">40</span>pts.</p>
                                 </div>
                             </div>
                         </div>
+                        </div>
+                        <div class="image-grid show pb-2 pt-35">
+                            <div class="image large">
+                                <img src="./assets/img/hat.png" class="img-fluid" />
+                            </div>
+                            <div class="image small">
+                                <img src="./assets/img/tshirt.png" class="img-fluid" />
+                            </div>
+                            <div class="image small">
+                                <img src="./assets/img/jacket.png" class="img-fluid" />
+                            </div>
+                            <div class="image large">
+                                <img src="./assets/img/creditstore.png" class="img-fluid" />
+                            </div>
+                        </div>
+                    </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-4 text-center tab-space">
+                <div class="swag-25">
                     <div class="col-wrap col-wrap2">
                         <div class="level-icon lvl2">
                         </div>
-                        <h4>Advanced<br />
-                            Prize Pack</h4>
-                        <div class="d-flex flex-wrap align-items-stretch justify-content-center" style="gap:0.22vw; margin-bottom: 2.45vw;">
-                            <div class="flex-item w-100">Base Prize Pack</div>
-                            <div class="flex-item w-100" style="width: 74.9%;">Custom Shoes</div>
-                            <div class="flex-item w-100">$75 Chipr Store Credit</div>
-                        </div>
-                        <div class="w-85 m-auto">
-                            <div class="d-flex align-items-center justify-content-evenly flex-row">
-                                <div class="pr-4">
-                                    <h5 class="blue-text">D2D</h5>
-                                    <p class="small"><span class="big">80</span>pts.</p>
+                        <div class="swag-col">
+                            <div class="px-4 hide text-center">
+                                <h4 data-aos="fade-up">Advanced<br />
+                                    Prize Pack</h4>
+                                <div class="d-flex flex-wrap align-items-stretch justify-content-center" style="gap:0.22vw; margin-bottom: 2.45vw;">
+                                    <div class="flex-item w-100 flex-first" data-aos="fade-up">Base Prize Pack</div>
+                                    <div class="lh-1" data-aos="fade-up">+</div>
+                                    <div class="flex-item w-100" data-aos="fade-up">Custom Shoes</div>
+                                    <div class="lh-1" data-aos="fade-up">+</div>
+                                    <div class="flex-item w-100" data-aos="fade-up">$75 Chipr Store Credit</div>
                                 </div>
-                                <div class="ml-4">
-                                    <h5 class="pink-text">MDU</h5>
-                                    <p class="small"><span class="big">80</span>pts.</p>
+                                <div class="w-85 m-auto">
+                                    <div class="d-flex align-items-center justify-content-evenly flex-row">
+                                        <div class="pr-4 flex flex-column align-items-center justify-content-center" data-aos="zoom-in-right">
+                                            <h5 class="blue-text">D2D</h5>
+                                            <p class="small"><span class="big">80</span>pts.</p>
+                                        </div>
+                                        <div class="ml-4" data-aos="zoom-in-left">
+                                            <h5 class="pink-text">MDU</h5>
+                                            <p class="small"><span class="big">80</span>pts.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="show pb-1 px-2 text-center">
+                                
+                                <h4 class="text-white">Base Prize
+                                        Pack +</h4>
+                                <div class="image-grid">
+                                    <div class="image large">
+                                        <img src="./assets/img/shoes.png" class="img-fluid" />
+                                    </div>
+                                    <div class="image large">
+                                        <img src="./assets/img/creditstore.png" class="img-fluid" />
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-4 text-center tab-space">
+                <div class="swag-25">
                     <div class="col-wrap col-wrap3">
                         <div class="level-icon lvl3">
                         </div>
-                        <h4>Pro Prize <br />
+                        <div class="swag-col">
+                        <div class="px-4 hide text-center">
+                        <h4 data-aos="fade-up">Pro Prize <br />
                             Prize Pack</h4>
-                       
                         <div class="d-flex flex-wrap align-items-stretch justify-content-center"
                             style="gap:0.22vw; margin-top: 0.22vw;  margin-bottom: 2.45vw;">
-                            <div class="flex-item w-100">Advanced Prize Pack</div>
-                            <div class="flex-item w-100">$500 Apple Gift Card</div>
-                            <div class="flex-item w-100">Weekender Backpack/
+                            <div class="flex-item w-100 flex-first" data-aos="fade-up">Base + Advance prize pack </div>
+                            <div class="lh-1" data-aos="fade-up">+</div>
+                            <div class="flex-item w-100" data-aos="fade-up">$500 Apple Gift Card</div>
+                            <div class="lh-1" data-aos="fade-up">+</div>
+                            <div class="flex-item w-100" data-aos="fade-up">Weekender Backpack/
                                 Carry-on</div>
                         </div>
                         <div class="w-85 m-auto">
                             <div class="d-flex align-items-center justify-content-evenly flex-row">
-                                <div class="pr-4">
+                                <div class="pr-4 flex flex-column align-items-center justify-content-center" data-aos="zoom-in-right">
                                     <h5 class="blue-text">D2D</h5>
                                     <p class="small"><span class="big">140</span>pts.</p>
                                 </div>
-                                <div class="ml-4">
+                                <div class="ml-4" data-aos="zoom-in-left">
                                     <h5 class="pink-text">MDU</h5>
                                     <p class="small"><span class="big">140</span>pts.</p>
                                 </div>
                             </div>
                         </div>
+                        </div>
+                        <div class="show px-2 text-center">
+                                <h4 class="text-white">Base + Advanced prize
+                                     Pack +</h4>
+                                     <div class="image-grid">
+                            <div class="image large">
+                                <img src="./assets/img/backpack.png" class="img-fluid" />
+                            </div>
+                            <div class="image large">
+                                <img src="./assets/img/gifttcard.png" class="img-fluid" />
+                            </div>
+                        </div>
+                    </div>
+                    </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-4 text-center tab-space">
+                <div class="swag-25">
                     <div class="col-wrap col-wrap4">
                         <div class="level-icon lvl4">
                         </div>
-                        <h4>Premier <br />
+                        <div class="swag-col">
+                        <div class="px-4 hide text-center">
+                        <h4 data-aos="fade-up">Premier <br />
                             Prize Pack</h4>
                         <div class="d-flex flex-wrap align-items-stretch justify-content-center"
                             style="gap:0.22vw; margin-top: 0.22vw;  margin-bottom: 2.45vw;">
-                            <div class="flex-item w-100">Pro Prize Pack</div>
-                            <div class="flex-item w-100">$500 Travel Voucher</div>
+                            <div class="flex-item w-100 flex-first" data-aos="fade-up">Base + Advance + 
+                                Pro Prize pack</div>
+                            <div class="lh-1" data-aos="fade-up">+</div>
+                            <div class="flex-item w-100" data-aos="fade-up">$500 Travel Voucher</div>
+                            <div class="lh-1" data-aos="fade-up">+</div>
+                            <div class="flex-item w-100" data-aos="fade-up">Pro Prize Pack</div>
                         </div>
                         <div class="w-85 m-auto">
                             <div class="d-flex align-items-center justify-content-evenly flex-row">
-                                <div class="pr-4">
+                                <div class="pr-4 d-flex flex-column align-items-center justify-content-center" data-aos="zoom-in-right">
                                     <h5 class="blue-text">D2D</h5>
                                     <p class="small"><span class="big">170</span>pts.</p>
                                 </div>
-                                <div class="ml-4">
+                                <div class="ml-4" data-aos="zoom-in-left">
                                     <h5 class="pink-text">MDU</h5>
                                     <p class="small"><span class="big">170</span>pts.</p>
                                 </div>
                             </div>
                         </div>
+                        </div>
+                        <div class="show px-2 pb-2 text-center">
+                            <h4 class="text-white">Base + Advanced + Pro
+                                     PrizePack +</h4>
+                                <img src="./assets/img/travelvoucher.png" class="img-fluid" />
+                                </div>
+                            
+                        </div>
+                        </div>
+
                     </div>
                 </div>
+            </div>
+            </div>
             </div>
 
             </div>
@@ -255,11 +333,11 @@
         <section class="container-fluid pt-117">
 
             <div class="w-40 m-auto d-flex flex-row align-items-center justify-content-between certificate-wrap">
-                <div class="certificate-icon"></div>
+                <div class="certificate-icon" data-aos="zoom-in-right"></div>
                 <div>
                    
-                    <h6>Achieve greatness and earn your</h6>
-                    <h3>Season 1 Level Certificate!</h3>
+                    <h6 data-aos="fade-up">Achieve greatness and earn your</h6>
+                    <h3 data-aos="fade-up">Season 1 Level Certificate!</h3>
                 </div>
             </div>
             <div class="footer"></div>
@@ -270,6 +348,10 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="assets/js/main.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </html>

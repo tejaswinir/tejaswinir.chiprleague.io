@@ -60,8 +60,7 @@
 }
 
 .py-113 {
-    padding-top: 113px;
-    padding-bottom: 113px;
+    padding: 7.375em 0;
 }
 .py-98 {
     padding: 98px 0;
@@ -78,7 +77,9 @@
 .pb-40{
     padding-bottom: 3.958vw;
 }
-
+.mt-113{
+    margin-top: 7.375em;
+}
 .bg-teal {
     background-color: var(--teal);
 }
@@ -163,7 +164,7 @@ header {
 .navbar .logo {
     width: 112px;
     height: 85px;
-    background-image: url(../img/logo.png);
+    background-image: url(../img/logo.svg);
     background-size: cover;
     background-position: center bottom;
 
@@ -224,7 +225,7 @@ h2{
 .home-content-wrap h5 {
 
     font-weight: 900;
-    font-size: 2.5em;
+    font-size: 2.129vw;
     line-height: 84.5%;
     text-transform: uppercase;
     margin-bottom: 0;
@@ -232,7 +233,7 @@ h2{
 
 .home-content-wrap h1 {
     font-weight: 900;
-    font-size: 8.8vw;
+    font-size: 8.587vw;
     line-height: 84.5%;
     color: var(--blue);
     text-transform: uppercase;
@@ -240,7 +241,7 @@ h2{
 }
 
 .home-content-wrap h4 {
-    font-size: 4.622rem;
+    font-size: 3.646vw;
     line-height: 91.5%;
     font-weight: 900;
     text-transform: uppercase;
@@ -249,7 +250,7 @@ h2{
 
 .home-content-wrap p {
     font-weight: 100;
-    font-size: 1.719em;
+    font-size: 1.719vw;
 }
 
 .header-section-height {
@@ -301,7 +302,8 @@ h2{
 }
 
 .home-card-section .card-wrap-1 p {
-    padding-right: 150px;
+    padding-right: 20%;
+    
 }
 
 .home-card-section .card-wrap-2 {
@@ -310,7 +312,7 @@ h2{
 }
 
 .home-card-section .card-wrapper h3 {
-    font-size: 3em;
+    font-size: 2.604vw    ;
     line-height: 106.5%;
     color: #fff;
     font-weight: 900;
@@ -325,7 +327,7 @@ h2{
     width: 80%;
     height: 298px;
     margin: auto;
-    background-image: url(../img/BrandBook-ChiprLeague_212.25\ 2.svg);
+    background-image: url(../img/Chipr_Seed_Gif_V2.gif);
     background-size: contain;
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -401,10 +403,14 @@ h2{
     text-transform: uppercase;
     margin-bottom: 50px;
 }
+.season-section h5{
+    font-size: 1.75em;
+    text-transform: uppercase;
+}
 
 .season-section p {
     font-weight: 400;
-    font-size: 2.0625em;
+    /* font-size: 2.0625em; */
     line-height: 1.2
 }
 
@@ -457,7 +463,7 @@ h2{
     position: absolute;
     text-transform: uppercase;
     font-weight: 900;
-    font-size: 3.625em;
+    /* font-size: 3.625em; */
     line-height: 90%;
 }
 
@@ -482,7 +488,7 @@ h2{
 }
 
 .chipr-league-bg {
-    background: url("../img/chipr-league-bg.png") center/cover no-repeat;
+    background: url("../img/chipr-league-bg.png") center/cover no-repeat fixed;
     padding-left: 15%;
 }
 
@@ -492,7 +498,8 @@ h2{
     background: url("../img/logo-big.svg") center/contain no-repeat;
 }
 
-.chipr-league .section-header h1 {
+.chipr-league .section-header h1
+.chipr-league .section-header .h1 {
     font-weight: 900;
     color: var(--blue);
     text-transform: uppercase;
@@ -513,7 +520,7 @@ h2{
 
 .title {
     color: white;
-    font-size: 3.125vw;
+    /* font-size: 2.8583vw; */
     font-weight: bold;
     text-transform: uppercase;
     display: flex;
@@ -562,11 +569,11 @@ h2{
     background-color: var(--purple);
 }
 
-.splide__slide.is-active.is-visible {
+.splide__list .splide__slide:nth-child(1).is-active.is-visible {
     border: 2px solid var(--blue);
 }
 
-.splide__slide.is-active.is-visible::after {
+.splide__list .splide__slide:nth-child(1).is-active::after {
     content: '';
     width: 24px;
     height: 24px;
@@ -586,7 +593,7 @@ h2{
 
 .chipr-league h4{
     font-weight: 800;
-    font-size: 3.5em;
+    font-size: 2.3373vw;
     color: var(--pink);
     text-transform: uppercase;
     margin-bottom: 0;
@@ -594,10 +601,10 @@ h2{
     padding-right: 2%;
     margin-bottom: 44px;
 }
-.chipr-league p {
-    font-size: 2.0625em;
+/* .chipr-league p {
+    font-size: 1.4523vw;
     line-height: 1.1;
-}
+} */
 .league-wrap{
     max-width: 50%;
     position: relative;
@@ -610,7 +617,7 @@ h2{
     width: 100%;
     height: 100%;
     background-position: right top;
-    background-size: 71px;
+    background-size: 10%;
     background-repeat: no-repeat;
     position: absolute;
     top: 0;
@@ -631,11 +638,11 @@ h2{
 
 .seasonal-award-section {
     width: 100%;
-    background: url("../img/seasonal-award-bg.png") center/cover no-repeat;
+    background: url("../img/seasonal-award-bg.png") center/cover no-repeat fixed;
     text-align: center;
 }
 .seasonal-award-section h4{
-    font-size: 3.5em;
+    font-size: 2.8583vw;
     font-weight: 800;
     color: #fff;
     margin-top: 47px;
@@ -644,8 +651,8 @@ h2{
 
 .seasonal-award-section p {
     font-weight: 400;
-    font-size: 1.75em;
-    line-height: 1;
+    /* font-size: 1.1913vw;
+    line-height: 1; */
 }
 .seasonal-award-section .flex-item{
     text-align: center;
@@ -656,18 +663,28 @@ h2{
     justify-content: center;
     padding-top: 40px;
 }
+.seasonal-award-section .flex-item .show{
+    display: none;
+}
+.seasonal-award-section .flex-item:hover .show{
+    display: block;
+}
+.seasonal-award-section .flex-item:hover .hide{
+    display: none;
+}
+
 .seasonal-award-section .flex-item p {
     margin-top: 44px
 }
 
 .tiers-section p{
     color: #000;
-    font-size: 1.4375em;
+    /* font-size: 0.8793vw; */
     line-height: 1;
     font-weight:400 ;
 }
 .tiers-section h5{
-    font-size: 2.0625em;
+    /* font-size: 2.0625em; */
     font-weight: 900;
     line-height: 1;
 }
@@ -684,7 +701,7 @@ h2{
 }
 
 .league-section p, .league-section .box li {
-    font-size: 1.75em;
+    /* font-size: 1.4523vw; */
     line-height: 1.1;
     font-weight: 400;
 }
@@ -695,7 +712,7 @@ h2{
 }
 
 .league-section .box h5{
-    font-size: 2em;
+    /* font-size: 1.4003vw; */
     font-weight: 900;
    
     line-height: 0.9;
@@ -706,7 +723,7 @@ h2{
     color: #000
 }
 .league-points-section h5{
-    font-size: 3.5em;
+    /* font-size: 1.4003vw; */
     font-weight: 900;
     line-height: 1;
     text-transform: uppercase;
@@ -715,7 +732,7 @@ h2{
 
 .league-points-section .list{
     padding-left: 122px;
-    background-size: 10%;
+    background-size: contain;
     background-position: left center;
     background-repeat: no-repeat;
 }
@@ -728,17 +745,59 @@ h2{
     background-image: url("../img/02.svg");
 }
 
-.league-points-section .list p{
-    font-size: 2.0625em;
-}
+/* .league-points-section .list p{
+    font-size: 0.8793vw;
+} */
 .league-points-section .list h6{
     font-weight: 900;
-    font-size: 2.0625em;
+    /* font-size: 0.8793vw; */
 }
-.chipr-league .last-section p {
-    font-size: 1.75em;
+/* .chipr-league .last-section p {
+    font-size: 1.1913vw;
     line-height: 1.2;
+} */
+/* .lastSection h4{
+    font-size: 2.65vw;
+} */
+.lastSection{
+    position: relative;
+    transition: all 2s ease-in-out;
 }
+.lastSection::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent, black);
+    position: absolute;
+    bottom:0;
+    left:0;
+    transition: height 0.2s ease-in-out;
+}
+
+.lastSection:hover::after{
+    height: 0;
+}
+.lastSection:hover h4{
+    font-size: 2.083vw;
+}
+
+@keyframes fadeInLoop {
+    0% { opacity: 0; }
+    20% { opacity: 1; }
+    40% { opacity: 1; }
+    60% { opacity: 0; }
+    100% { opacity: 0; }
+}
+.chipr-league .section-title span {
+    opacity: 0;
+    position: absolute;
+    animation: fadeInLoop 6s infinite;
+    color: var(--blue)
+}
+
+.chipr-league .section-title span:nth-child(1) { animation-delay: 0s; }
+.chipr-league .section-title span:nth-child(2) { animation-delay: 2s; }
+.chipr-league .section-title span:nth-child(3) { animation-delay: 4s; }
 
 .spring{
     width: 100%;
@@ -794,7 +853,7 @@ h2{
 }
 .swag-section .header-tab{
     width: 100%;
-    height: 18.2vh;
+    height: 20.2vh;
     background-repeat: no-repeat;
     background-size: cover;
    
@@ -850,7 +909,8 @@ h2{
     left:0;
     right:0;
     top:-10vw;
-    margin: auto
+    margin: auto;
+    transition: all 0.5s ease-in-out;
 }
 
 .lvl1{
@@ -866,12 +926,12 @@ h2{
     background-image: url("../img/tier-4.svg");
 }
 .col-wrap{
-    padding: 3.44vw;
+    padding-top: 4.57vw;
     position: relative;
 }
 .col-wrap h4{
     padding-top: 7.57vw;
-    font-size: 2vw;
+    font-size: 1.580vw;
     color: var(--blue);
     line-height: 84.5%;
     font-weight: 900;
@@ -879,25 +939,99 @@ h2{
     margin-bottom: 2.45vw;
 }
 .col-wrap .flex-item{
-    font-size: 1.15vw;
+    font-size: 1.007vw;
     font-weight: 400;
     line-height: 150%;
-    padding: 0.095vw;
+    padding: 0.5vw;
     text-transform: capitalize;
     background-color: var(--blue);
     text-align: center;
 }
-.col-wrap.col-wrap1{
+.overflowing-contianer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+}
+.col-wrap .flex-item.flex-first{
+    background-color: transparent;
+    border: 1px solid var(--blue);
+}
+.col-wrap.col-wrap1  {
     background-color: rgba(217, 217, 217, 0.1);
 }
-.col-wrap.col-wrap2{
+.col-wrap.col-wrap2 {
     background-color: rgba(217, 217, 217, 0.2);
 }
-.col-wrap.col-wrap3{
+.col-wrap.col-wrap3 {
     background-color: rgba(217, 217, 217, 0.3);
 }
-.col-wrap.col-wrap4{
+.col-wrap.col-wrap4 {
     background-color: rgba(217, 217, 217, 0.4);
+}
+.swag-col{
+    position: relative;
+    padding: 3.44vw 0 0 ;
+}
+.col-wrap .swag-col h4{
+    padding-top: 4.57vw;
+}
+.col-wrap .hide{
+    opacity: 1;
+    transition: all 0.2s ease-in-out;
+}
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    max-width: 100%;
+  }
+  
+  /* Ensuring aspect ratio remains the same */
+  .image {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures images don't get distorted */
+    border-radius: 10px;
+  }
+  
+  /* Aspect Ratios for Different Images */
+  .image.large {
+    grid-column: span 2; /* Full-width */
+    aspect-ratio: 12 / 9; /* Adjust based on your images */
+  }
+  
+  .image.small {
+    grid-column: span 1;
+    aspect-ratio: 1 / 1; /* Makes square */
+  }
+.swag-col .show{
+    position: absolute;
+    width: 100%;
+    height: 112%;
+    bottom: -80px;
+  transition: bottom 0.5s ease-in-out, opacity 0.2s ease-in-out;
+  opacity: 0;
+}
+.col-wrap:hover .show{
+    top: 0;
+    opacity: 1;
+}
+.col-wrap:hover .hide{
+    opacity: 0;
+}
+.col-wrap:hover .level-icon{
+    transform: scale(0.7);
+    top:-12vw;
+}
+.swag-25{
+    flex: 0 0 auto;
+    width: 25%;
 }
 
 .tab-space{
@@ -926,7 +1060,7 @@ h2{
     bottom: 20px;
 }
 .swag-head h1{
-    font-size: 3.13vw;
+    font-size: 2.986vw;
     line-height: 95.5%;
     text-transform: uppercase;
 }
@@ -942,7 +1076,7 @@ h2{
 .forge-header{
     width: 100vw;
     height: 100vh;
-    background: transparent url(../img/forge-header-bg.png) center/cover no-repeat;
+    background: transparent url(../img/forge-header-bg.png) center/cover no-repeat fixed;
     display: flex;
     flex-flow: row;
     align-items: center;
@@ -950,17 +1084,26 @@ h2{
 }
 .header-title{
    padding-right: 2%;
-    padding-left: 9.427vw;
+   padding-left: 6.427vw;
 }
 .forge-header h1,  .forge-section h2{
-    font-size: 3.646vw;
+   
     font-weight: 900;
     line-height: 94.5%;
     color: #fff;
     text-transform: uppercase;
 }
+.forge-section h1{
+    font-size: 3.507vw;
+}
+.forge-section h2{
+    font-size: 2.986vw;
+}
 .forge-sec2{
     padding-top: 5.26vw;
+}
+.forge-header .title-img{
+    width: 55%;
 }
 .forge-col{
     width: 100%;
@@ -968,12 +1111,15 @@ h2{
     padding-bottom: 7.656vw;
     padding-left:8.75vw;
     padding-right: 11.198vw;
-    font-size: 2.604vw;
-    font-weight: 900;
     line-height: 1;
     text-transform: uppercase;
     height: 100%;
     transition: transform 0.3s ease, background-image 0.4s ease;
+}
+.forge-col p{
+    font-size: 2.465vw;
+    font-weight: 900;
+    line-height: 1;
 }
 .forge-col1{
     color: #fff;
@@ -1014,15 +1160,16 @@ h2{
     background: transparent url("../img/faq-bg.png") center/cover no-repeat fixed;
     position: relative;
     margin-bottom: 4.635vw;
+    display: flex;
+    align-items: center;
 }
 .faq-section .section-header .title{
-    padding-top: 16.198vw;
     padding-left: 9.128vw;
 }
 
 .faq-section .section-header .title h1{
     font-weight: 100;
-    font-size: 4.688vw;
+    font-size: 4.549vw;
 }
 
 .faq-wrapper{
@@ -1031,16 +1178,18 @@ h2{
 }
 
 .faq-wrapper #pills-tab .nav-link{
-    font-size: 1.146vw;
+    font-size: 1.007vw;
     font-weight: 500;
     text-transform: uppercase;
     color: #fff;
     max-width: 200px;
     text-align: center;
+    margin-bottom: 20px;
 }
 .faq-wrapper #pills-tab .nav-link.active{
     color: var(--pink);
     background-color: transparent;
+    font-weight: 900;
 }
 .faq-section2{
     padding-top: 10.417vw;
@@ -1053,6 +1202,7 @@ h2{
     padding-right: 60px;
     position: relative;
     font-size: 1.146vw;
+    margin-bottom: 1.5rem;
 }
 .faq-wrapper .tab-pane .nav-pills .nav-link.active{
     background-color: transparent;
@@ -1076,13 +1226,13 @@ h2{
 }
 .faq-wrapper .tab-content p {
     font-weight: 400;
-    font-size: 1.146vw;
+    font-size: 1.007vw;
 }
 .faq-wrapper h6 {
-    font-size: 1.719vw;
+    font-size: 1.580vw;
 }
 .faq-section .form-label, .faq-section .form-control{
-    font-size: 1.094vw;
+    font-size: 0.955vw;
     font-weight: 100;
 }
 @media screen and (min-width: 680px) {

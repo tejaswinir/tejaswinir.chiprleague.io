@@ -20,12 +20,13 @@
         " rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg fixed-top">
+        <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">
                     <div class="logo"></div>
@@ -62,7 +63,12 @@
             class="container-fluid d-flex justify-content-start align-items-center section-header chipr-league-bg pt-117">
             <div>
                 <div class="brand-logo-big"></div>
-                <h1>COMPEtE.</h1>
+                <div class="section-title h1">
+                    <span>COMPETE</span>
+                    <span>WIN</span>
+                    <span>REPEAT</span>
+                </div>
+                
             </div>
         </section>
         <div class="position-relative">
@@ -74,11 +80,11 @@
         </div>
         <section class="splide_wrapper">
             <div class="title-container">
-                <span class="line"></span>
-                <h2 class="title">
+                <span class="line" data-aos="fade-right"></span>
+                <h2 class="title" data-aos="flip-up">
                     <span>SEASON</span> <span class="blue-text">THEMES</span>
                 </h2>
-                <span class="line"></span>
+                <span class="line" data-aos="fade-left"></span>
             </div>
             <div class="splide">
                 <div class="splide__track">
@@ -91,13 +97,13 @@
                 </div>
             </div>
         </section>
-        <section class="bg-teal py-98">
+        <section class="bg-teal py-98" >
             <div class="w-80 d-flex justify-content-between align-items-stretch m-auto ">
-                <div class="league-wrap">
+                <div class="league-wrap" data-aos="zoom-in-right">
                     <h4>Seasonal Reset</h4>
                     <p>Points reset at the start of each season to ensure fairness.</p>
                 </div>
-                <div class="league-wrap">
+                <div class="league-wrap" data-aos="zoom-in-left">
                     <h4>Boosters</h4>
                     <p>Participate in special short-term competitions and local challenges to quickly boost your
                         leaderboard ranking!</p>
@@ -105,61 +111,69 @@
             </div>
         </section>
         <section class="seasonal-award-section py-70">
-            <h4>Seasonal Awards</h4>
-            <p>Top performers will be celebrated each season with awards such as:</p>
+            <h4 data-aos="fade-up">Seasonal Awards</h4>
+            <p data-aos="fade-up">Top performers will be celebrated each season with awards such as:</p>
             <div class="w-80 m-auto d-flex flex-wrap justify-content-center align-content-between">
-                <div class="flex-item  col-sm-6 col-md-3 col-lg-4">
-                    <img src="./assets/img/icon-1.svg" />
+                <div class="flex-item  col-sm-6 col-md-3 col-lg-4" data-aos="zoom-out">
+                    <img src="./assets/img/icon-1.svg" class="hide" />
+                    <img src="./assets/img/icon-1-pink.svg" class="show" />
                     <p>Highest Season Points</p>
                 </div>
-                <div class="flex-item  col-sm-6 col-md-4">
-                    <img src="./assets/img/icon-2.svg" />
+                <div class="flex-item  col-sm-6 col-md-4" data-aos="zoom-out">
+                    <img src="./assets/img/icon-2.svg" class="hide" />
+                    <img src="./assets/img/icon-2-pink.svg" class="show" />
                     <p>Most Consistent Sales Team</p>
                 </div>
-                <div class="flex-item  col-sm-6 col-md-4">
-                    <img src="./assets/img/icon-3.svg" />
+                <div class="flex-item  col-sm-6 col-md-4" data-aos="zoom-out">
+                    <img src="./assets/img/icon-3.svg" class="hide" />
+                    <img src="./assets/img/icon-3-pink.svg" class="show" />
                     <p>Best
                         Closer</p>
                 </div>
-                <div class="flex-item col-sm-6 col-md-4">
-                    <img src="./assets/img/icon-4.svg" />
+                <div class="flex-item col-sm-6 col-md-4" data-aos="zoom-out">
+                    <img src="./assets/img/icon-4.svg" class="hide" />
+                    <img src="./assets/img/icon-4-pink.svg" class="show" />
                     <p>Most Valuable Recruiter</p>
                 </div>
-                <div class="flex-item col-sm-6 col-md-4">
-                    <img src="./assets/img/icon-5.svg" />
+                <div class="flex-item col-sm-6 col-md-4" data-aos="zoom-out">
+                    <img src="./assets/img/icon-5.svg" class="hide" />
+                    <img src="./assets/img/icon-5-pink.svg" class="show" />
                     <p>Highest Season Points</p>
                 </div>
-                <div class="flex-item col-sm-6 col-md-4">
-                    <img src="./assets/img/icon-6.svg" />
+                <div class="flex-item col-sm-6 col-md-4" data-aos="zoom-out">
+                    <img src="./assets/img/icon-6.svg" class="hide" />
+                    <img src="./assets/img/icon-6-pink.svg" class="show" />
                     <p>Most Consistent Sales Team</p>
                 </div>
-                <div class="flex-item col-sm-6 col-md-4">
-                    <img src="./assets/img/icon-7.svg" />
+                <div class="flex-item col-sm-6 col-md-4" data-aos="zoom-out">
+                    <img src="./assets/img/icon-7.svg" class="hide" />
+                    <img src="./assets/img/icon-7-pink.svg" class="show" />
                     <p>Best
                         Closer</p>
                 </div>
-                <div class="flex-item col-sm-6 col-md-4">
-                    <img src="./assets/img/icon-8.svg" />
+                <div class="flex-item col-sm-6 col-md-4" data-aos="zoom-out">
+                    <img src="./assets/img/icon-8.svg" class="hide" />
+                    <img src="./assets/img/icon-8-pink.svg" class="show" />
                     <p>Most Valuable Recruiter</p>
                 </div>
             </div>
         </section>
         <section class="tiers-section bg-white py-113">
             <div class="title-container">
-                <span class="line"></span>
-                <h2 class="title">
+                <span class="line" data-aos="fade-right"></span>
+                <h2 class="title" data-aos="flip-up">
                     <span class="blue-text">Tiers</span> <span class="teal-text">Explained</span>
                 </h2>
-                <span class="line"></span>
+                <span class="line"  data-aos="fade-left"></span>
             </div>
             <div class="w-85 m-auto">
                 <div class="row" style="gap: 10px;">
                     <div class="col border-end d-flex align-items-center justify-content-start flex-column">
-                        <img src="./assets/img/tier-1.svg" class="img-fluid" width="200" />
+                        <img src="./assets/img/tier-1.svg" class="img-fluid" width="200" data-aos="zoom-in" />
                         <div class="px-3 text-center mt-5">
-                            <p>Starter tier with branded gear and basic incentives.</p>
-                            <div class="w-85 m-auto">
-                                <div class="d-flex align-items-center justify-content-evenly flex-row ">
+                            <p  data-aos="flip-down">Starter tier with branded gear and basic incentives.</p>
+                            <div class="w-85 m-auto" >
+                                <div class="d-flex align-items-center justify-content-evenly flex-row "  data-aos="flip-down">
                                     <div class="pr-4">
                                         <h5 class="blue-text">D2D</h5>
                                         <p class="small"><span class="big">40</span>pts.</p>
@@ -173,11 +187,11 @@
                         </div>
                     </div>
                     <div class="col border-end d-flex align-items-center justify-content-start flex-column">
-                        <img src="./assets/img/tier-2.svg" class="img-fluid" width="200" />
+                        <img src="./assets/img/tier-2.svg" class="img-fluid" width="200" data-aos="zoom-in" />
                         <div class="px-3 text-center mt-5">
-                            <p>Mid-tier perks and accessories.</p>
+                            <p data-aos="flip-down">Mid-tier perks and accessories.</p>
                             <div class="w-85 m-auto">
-                                <div class="d-flex align-items-center justify-content-evenly flex-row ">
+                                <div class="d-flex align-items-center justify-content-evenly flex-row " data-aos="flip-down">
                                     <div class="pr-4">
                                         <h5 class="blue-text">D2D</h5>
                                         <p class="small"><span class="big">80</span>pts.</p>
@@ -192,11 +206,11 @@
 
                     </div>
                     <div class="col border-end d-flex align-items-center justify-content-start flex-column">
-                        <img src="./assets/img/tier-3.svg" class="img-fluid" width="200" />
+                        <img src="./assets/img/tier-3.svg" class="img-fluid" width="200" data-aos="zoom-in" />
                         <div class="px-3 text-center mt-5">
-                            <p>Premium gadgets and gift cards.</p>
+                            <p data-aos="flip-down">Premium gadgets and gift cards.</p>
                             <div class="w-85 m-auto">
-                                <div class="d-flex align-items-center justify-content-evenly flex-row ">
+                                <div class="d-flex align-items-center justify-content-evenly flex-row " data-aos="flip-down">
                                     <div class="pr-4">
                                         <h5 class="blue-text">D2D</h5>
                                         <p class="small"><span class="big">140</span>pts.</p>
@@ -210,11 +224,11 @@
                         </div>
                     </div>
                     <div class="col d-flex align-items-center justify-content-start flex-column">
-                        <img src="./assets/img/tier-4.svg" class="img-fluid" width="200" />
+                        <img src="./assets/img/tier-4.svg" class="img-fluid" width="200"  data-aos="zoom-in" />
                         <div class="px-3 text-center mt-5">
-                            <p>Luxury experiences, high-end rewards, and elite recognition.</p>
+                            <p data-aos="flip-down">Luxury experiences, high-end rewards, and elite recognition.</p>
                             <div class="w-85 m-auto">
-                                <div class="d-flex align-items-center justify-content-evenly flex-row ">
+                                <div class="d-flex align-items-center justify-content-evenly flex-row " data-aos="flip-down">
                                     <div class="pr-4">
                                         <h5 class="blue-text">D2D</h5>
                                         <p class="small"><span class="big">170</span>pts.</p>
@@ -232,30 +246,30 @@
         </section>
         <section class="league-section bg-blue py-113">
 
-            <h2 class="title title-center">
+            <h2 class="title title-center" data-aos="fade-up">
                 <span class="teal-text">League</span> <span class="white-text">Points System</span>
             </h2>
-            <div class="w-75 m-auto text-center mt-5 mb-3">
-                <p>Every sale and achievement contributes to your League Points, which are earned automatically for each
+            <div class="w-50 m-auto text-center mt-5 mb-5" data-aos="fade-up">
+                <p data-aos="fade-up">Every sale and achievement contributes to your League Points, which are earned automatically for each
                     sale and performance metric you achieve.</p>
             </div>
             <div class="px-113">
                 <div class="row" style="gap: 10px;">
                     <div class="col p-80 box">
-                        <h5>D2D Points <br />Breakdown</h5>
+                        <h5 data-aos="fade-up">D2D Points <br />Breakdown</h5>
                         <ul>
-                            <li>Fiber Orders: 1 point per order</li>
-                            <li>Non-Fiber Attachments Sold: 1 point per item</li>
-                            <li>Holiday Acceleration: 3 points per order</li>
-                            <li>Recruits Hired: 1 point per recruit's first 10 order</li>
+                            <li data-aos="fade-up">Fiber Orders: 1 point per order</li>
+                            <li data-aos="fade-up">Non-Fiber Attachments Sold: 1 point per item</li>
+                            <li data-aos="fade-up">Holiday Acceleration: 3 points per order</li>
+                            <li data-aos="fade-up">Recruits Hired: 1 point per recruit's first 10 order</li>
                         </ul>
                     </div>
                     <div class="col p-80 box">
-                        <h5>MDU Points <br /> Breakdown</h5>
+                        <h5 data-aos="fade-up">MDU Points <br /> Breakdown</h5>
                         <ul>
-                            <li>Fiber Units Sold: 1 point per sale</li>
-                            <li> Non-Fiber Units Sold: 1 point per sale</li>
-                            <li>Weekend Blitz Acceleration: Bonus pointsfor weekend sales</li>
+                            <li data-aos="fade-up">Fiber Units Sold: 1 point per sale</li>
+                            <li data-aos="fade-up"> Non-Fiber Units Sold: 1 point per sale</li>
+                            <li data-aos="fade-up">Weekend Blitz Acceleration: Bonus pointsfor weekend sales</li>
 
                         </ul>
                     </div>
@@ -265,10 +279,56 @@
         <section class="league-points-section bg-white py-113">
 
             <div class="row w-80 m-auto">
-                <div class="col d-flex justify-content-center">
-                    <img src="./assets/img/protip.svg" class="img-fluid" width="336" />
+                <div class="col-md-4 d-flex justify-content-center align-items-center" data-aos="zoom-in-right">
+                    <svg width="336" height="374" viewBox="0 0 336 374" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_1010_178)">
+                        <path d="M70.6618 264.754L47.6116 279.985L40.1196 268.639C38.903 266.807 38.2712 265.05 38.2074 263.375C38.1436 261.699 38.5458 260.158 39.3974 258.757C40.2491 257.355 41.4542 256.137 43.0068 255.112C44.5823 254.072 46.1989 253.486 47.8546 253.347C49.5102 253.208 51.0834 253.53 52.5823 254.31C54.073 255.093 55.3802 256.328 56.4957 258.017L60.0857 263.459L66.8502 258.987L70.6596 264.746L70.6618 264.754ZM55.6584 266.392L52.9149 262.237C52.1137 261.019 51.1766 260.329 50.1013 260.161C49.0344 259.99 47.9457 260.273 46.8498 260.996C45.6541 261.782 44.9178 262.678 44.6281 263.669C44.3406 264.669 44.596 265.756 45.3821 266.951L48.244 271.281L55.6478 266.386L55.6584 266.392Z" fill="black"/>
+                        <path d="M56.9848 243.396L31.2008 253.305L26.2495 240.409C25.0756 237.365 25.0202 234.818 26.0644 232.765C27.117 230.71 28.9861 229.161 31.6824 228.125C33.4193 227.454 35.1106 227.314 36.7518 227.689C38.3952 228.073 39.8341 228.896 41.0622 230.17C41.2094 229.683 41.4268 229.258 41.6955 228.89C41.9643 228.523 42.3745 228.081 42.9095 227.571L48.7045 221.853L51.2939 228.575L45.8357 233.979C45.367 234.435 45.0788 234.898 44.9712 235.366C44.8637 235.833 44.9407 236.422 45.2062 237.112L46.3494 240.074L54.5194 236.936L56.9993 243.383L56.9848 243.396ZM41.3743 241.999L39.5418 237.232C39.0632 235.981 38.3667 235.12 37.4711 234.652C36.5755 234.185 35.4865 234.199 34.2041 234.695C31.6143 235.693 30.7976 237.426 31.7502 239.911L33.6923 244.953L41.3743 241.999Z" fill="black"/>
+                        <path d="M46.5599 206.629C47.1949 211.071 46.5408 214.614 44.6084 217.263C42.6737 219.904 39.3144 221.575 34.5345 222.255C29.4699 222.977 25.6626 222.34 23.1272 220.332C20.5919 218.325 19.0014 215.097 18.3664 210.654C17.7314 206.212 18.3582 202.668 20.2322 200.034C22.1061 197.4 25.5785 195.717 30.6515 194.994C35.4398 194.311 39.1278 194.971 41.7239 196.971C44.32 198.971 45.9355 202.193 46.5705 206.635L46.5599 206.629ZM40.7436 207.453C40.4154 205.158 39.5179 203.581 38.0551 202.701C36.5861 201.832 34.4518 201.589 31.6484 201.99C28.5937 202.424 26.5091 203.269 25.3987 204.507C24.2883 205.745 23.9025 207.514 24.2307 209.809C24.5572 212.13 25.4341 213.731 26.8446 214.616C28.2551 215.501 30.4896 215.717 33.5443 215.284C36.3478 214.882 38.3297 214.056 39.4925 212.813C40.6531 211.561 41.0723 209.783 40.7436 207.453Z" fill="black"/>
+                        <path d="M45.9256 174.341L23.9167 170.727L22.603 178.728L17.3565 177.867L21.1056 155.054L26.3521 155.915L25.0384 163.915L47.0473 167.529L45.9256 174.341Z" fill="black"/>
+                        <path d="M49.6171 156.828L23.3251 148.361L25.4435 141.792L51.7356 150.26L49.6171 156.828Z" fill="black"/>
+                        <path d="M52.7854 146.19L28.1 133.79L34.2046 121.639C35.1915 119.673 36.3953 118.249 37.8221 117.356C39.249 116.463 40.7761 116.045 42.418 116.089C44.0599 116.133 45.7168 116.566 47.3741 117.403C49.061 118.25 50.3787 119.357 51.3188 120.726C52.259 122.095 52.7674 123.625 52.8312 125.3C52.8972 126.984 52.4774 128.727 51.5677 130.547L48.6414 136.373L55.8864 140.012L52.7832 146.181L52.7854 146.19ZM43.8941 134L46.1238 129.551C46.7777 128.248 46.9156 127.091 46.5188 126.078C46.1325 125.071 45.353 124.268 44.1741 123.679C42.8999 123.035 41.7549 122.841 40.7559 123.09C39.7486 123.342 38.9302 124.099 38.2885 125.382L35.9571 130.019L43.8941 134Z" fill="black"/>
+                        <path d="M88.4667 97.2662L73.001 74.3802L84.2628 66.768C86.091 65.5348 87.8324 64.8801 89.5121 64.7972C91.1834 64.7166 92.7282 65.0998 94.1442 65.9384C95.5603 66.7771 96.785 67.9715 97.8245 69.5111C98.8791 71.0735 99.4896 72.6832 99.6392 74.3448C99.7889 76.0064 99.4858 77.5833 98.7218 79.0777C97.9601 80.5805 96.7355 81.8938 95.0526 83.0344L89.6531 86.6844L94.1942 93.4029L88.4773 97.2723L88.4667 97.2662ZM86.6702 82.2712L90.7955 79.482C92.0012 78.6663 92.6884 77.7209 92.8404 76.6502C93.0007 75.5773 92.7035 74.5015 91.9716 73.4079C91.171 72.2253 90.2751 71.4891 89.28 71.2184C88.2826 70.9393 87.1895 71.2054 86.0066 72.0059L81.707 74.9134L86.6785 82.2689L86.6702 82.2712Z" fill="black"/>
+                        <path d="M109.695 83.3566L99.5191 57.6828L112.362 52.5937C115.391 51.3969 117.937 51.3057 120.013 52.3347C122.079 53.3575 123.642 55.2135 124.711 57.9005C125.397 59.6244 125.556 61.3194 125.199 62.9644C124.835 64.6116 124.021 66.0565 122.76 67.299C123.247 67.4461 123.679 67.6529 124.046 67.9216C124.414 68.1903 124.862 68.5899 125.372 69.1248L131.154 74.8571L124.457 77.5112L118.996 72.1051C118.531 71.6387 118.07 71.3589 117.594 71.2536C117.118 71.1483 116.54 71.2315 115.852 71.5054L112.905 72.6715L116.124 80.8098L109.703 83.3544L109.695 83.3566ZM110.937 67.7354L115.682 65.8549C116.929 65.3596 117.79 64.6631 118.245 63.7531C118.7 62.8431 118.677 61.7564 118.175 60.4848C117.154 57.9103 115.407 57.1066 112.936 58.0821L107.908 60.0744L110.945 67.7331L110.937 67.7354Z" fill="black"/>
+                        <path d="M146.366 72.5632C141.926 73.2424 138.375 72.6265 135.715 70.7239C133.056 68.8213 131.354 65.4797 130.619 60.697C129.846 55.6379 130.447 51.8316 132.429 49.2674C134.414 46.7116 137.617 45.0921 142.056 44.4129C146.496 43.7338 150.038 44.3162 152.693 46.1665C155.347 48.0167 157.061 51.4714 157.834 56.5304C158.567 61.3048 157.945 65.0003 155.977 67.6146C154.008 70.2289 150.803 71.8757 146.364 72.5548L146.366 72.5632ZM145.473 66.757C147.761 66.4037 149.336 65.4978 150.193 64.0145C151.049 62.5311 151.268 60.4037 150.839 57.5989C150.37 54.5451 149.51 52.4737 148.258 51.3763C147.005 50.2789 145.232 49.9121 142.942 50.2571C140.618 50.611 139.03 51.5023 138.164 52.9166C137.3 54.3393 137.092 56.5714 137.561 59.6252C137.987 62.4216 138.839 64.3967 140.097 65.5465C141.354 66.6963 143.145 67.0942 145.468 66.7403L145.473 66.757Z" fill="black"/>
+                        <path d="M178.627 71.5849L182.018 49.5395L174.003 48.3105L174.807 43.0528L197.658 46.5669L196.854 51.8246L188.84 50.5956L185.449 72.6409L178.621 71.5955L178.627 71.5849Z" fill="black"/>
+                        <path d="M196.175 75.096L204.37 48.7182L210.965 50.7664L202.77 77.1442L196.175 75.096Z" fill="black"/>
+                        <path d="M206.857 78.1542L219.003 53.3509L231.219 59.3294C233.198 60.2949 234.636 61.4857 235.535 62.9018C236.434 64.3178 236.869 65.8403 236.852 67.4837C236.828 69.1294 236.411 70.7816 235.587 72.4533C234.759 74.144 233.665 75.4761 232.3 76.4329C230.943 77.3875 229.418 77.9127 227.738 77.9955C226.058 78.0784 224.304 77.6798 222.477 76.781L216.622 73.9165L213.055 81.1955L206.848 78.1565L206.857 78.1542ZM218.959 69.1345L223.424 71.3236C224.734 71.9667 225.895 72.0857 226.9 71.691C227.905 71.2964 228.704 70.5002 229.276 69.3258C229.907 68.0372 230.085 66.8968 229.835 65.8979C229.585 64.8991 228.801 64.0792 227.523 63.4543L222.864 61.1741L218.962 69.1428L218.959 69.1345Z" fill="black"/>
+                        <path d="M256.147 113.319L278.875 97.6196L286.601 108.805C287.857 110.617 288.529 112.354 288.62 114.032C288.719 115.707 288.353 117.247 287.524 118.669C286.696 120.091 285.523 121.328 283.996 122.382C282.446 123.451 280.841 124.078 279.183 124.244C277.526 124.411 275.945 124.127 274.436 123.376C272.927 122.625 271.599 121.413 270.447 119.752L266.734 114.388L260.068 118.995L256.145 113.311L256.147 113.319ZM271.12 111.367L273.947 115.464C274.779 116.665 275.728 117.333 276.799 117.485C277.868 117.629 278.952 117.33 280.033 116.583C281.211 115.766 281.928 114.866 282.197 113.863C282.466 112.859 282.193 111.777 281.376 110.599L278.423 106.33L271.122 111.376L271.12 111.367Z" fill="black"/>
+                        <path d="M270.282 134.413L295.862 123.976L301.08 136.764C302.31 139.785 302.429 142.332 301.419 144.412C300.417 146.49 298.576 148.076 295.903 149.168C294.184 149.87 292.493 150.046 290.842 149.7C289.191 149.354 287.733 148.563 286.485 147.312C286.346 147.797 286.139 148.229 285.873 148.604C285.604 148.972 285.213 149.417 284.682 149.944L279 155.784L276.282 149.114L281.629 143.598C282.087 143.134 282.365 142.666 282.47 142.19C282.567 141.716 282.484 141.138 282.199 140.444L281 137.506L272.902 140.813L270.293 134.419L270.282 134.413ZM285.915 135.49L287.843 140.213C288.346 141.457 289.058 142.306 289.965 142.752C290.873 143.198 291.966 143.165 293.233 142.647C295.801 141.6 296.584 139.841 295.575 137.38L293.535 132.373L285.912 135.482L285.915 135.49Z" fill="black"/>
+                        <path d="M281.447 170.936C280.718 166.51 281.297 162.951 283.174 160.263C285.053 157.583 288.378 155.85 293.148 155.065C298.202 154.239 302.017 154.802 304.591 156.755C307.174 158.705 308.826 161.898 309.547 166.326C310.276 170.752 309.723 174.304 307.907 176.985C306.09 179.666 302.644 181.413 297.598 182.237C292.828 183.023 289.125 182.439 286.49 180.494C283.855 178.549 282.168 175.364 281.447 170.936ZM287.247 169.982C287.617 172.265 288.548 173.834 290.035 174.671C291.523 175.509 293.662 175.706 296.452 175.254C299.497 174.751 301.565 173.875 302.649 172.608C303.734 171.341 304.084 169.572 303.712 167.281C303.333 164.964 302.427 163.389 300.999 162.536C299.57 161.683 297.327 161.504 294.282 162.007C291.484 162.461 289.521 163.327 288.384 164.599C287.247 165.871 286.868 167.665 287.247 169.982Z" fill="black"/>
+                        <path d="M282.757 203.204L304.832 206.361L305.978 198.334L311.241 199.091L307.968 221.974L302.704 221.217L303.849 213.19L281.775 210.032L282.755 203.195L282.757 203.204Z" fill="black"/>
+                        <path d="M279.433 220.78L305.892 228.701L303.911 235.313L277.451 227.392L279.433 220.78Z" fill="black"/>
+                        <path d="M276.473 231.497L301.406 243.382L295.549 255.654C294.602 257.637 293.424 259.09 292.023 260.012C290.619 260.925 289.093 261.379 287.452 261.371C285.81 261.363 284.143 260.958 282.47 260.162C280.765 259.347 279.429 258.272 278.457 256.92C277.486 255.568 276.946 254.056 276.845 252.373C276.743 250.689 277.133 248.937 278.003 247.101L280.806 241.217L273.495 237.731L276.465 231.499L276.473 231.497ZM285.622 243.51L283.483 247.997C282.85 249.313 282.748 250.468 283.153 251.479C283.564 252.48 284.358 253.27 285.547 253.829C286.84 254.441 287.98 254.619 288.983 254.351C289.986 254.082 290.789 253.302 291.401 252.01L293.631 247.328L285.622 243.51Z" fill="black"/>
+                        <path d="M241.82 281.148L257.761 303.701L246.661 311.547C244.86 312.818 243.128 313.506 241.457 313.622C239.784 313.73 238.232 313.385 236.806 312.576C235.38 311.767 234.126 310.598 233.049 309.086C231.963 307.541 231.322 305.949 231.139 304.296C230.956 302.644 231.221 301.059 231.953 299.546C232.685 298.033 233.882 296.683 235.539 295.513L240.863 291.749L236.187 285.129L241.829 281.146L241.82 281.148ZM243.927 296.096L239.86 298.968C238.669 299.807 238.003 300.764 237.87 301.839C237.737 302.913 238.051 303.985 238.806 305.063C239.629 306.231 240.545 306.943 241.544 307.195C242.543 307.447 243.632 307.164 244.8 306.341L249.039 303.342L243.916 296.09L243.927 296.096Z" fill="black"/>
+                        <path d="M220.887 295.489L231.588 320.951L218.853 326.306C215.85 327.568 213.3 327.714 211.217 326.723C209.133 325.732 207.526 323.914 206.411 321.257C205.692 319.542 205.5 317.856 205.818 316.203C206.145 314.549 206.926 313.085 208.164 311.822C207.671 311.686 207.242 311.487 206.868 311.229C206.494 310.971 206.039 310.574 205.513 310.052L199.62 304.439L206.262 301.647L211.835 306.934C212.306 307.39 212.773 307.659 213.246 307.756C213.72 307.853 214.302 307.75 214.988 307.468L217.909 306.238L214.521 298.171L220.89 295.497L220.887 295.489ZM219.973 311.13L215.263 313.109C214.023 313.629 213.185 314.346 212.749 315.26C212.313 316.174 212.355 317.264 212.89 318.527C213.97 321.086 215.725 321.852 218.179 320.818L223.162 318.721L219.973 311.13Z" fill="black"/>
+                        <path d="M184.463 307.04C188.886 306.267 192.453 306.807 195.151 308.654C197.852 310.51 199.622 313.806 200.451 318.573C201.327 323.613 200.81 327.433 198.883 330.036C196.956 332.639 193.78 334.323 189.356 335.097C184.932 335.87 181.373 335.355 178.679 333.56C175.986 331.765 174.201 328.347 173.325 323.307C172.498 318.549 173.036 314.84 174.958 312.184C176.872 309.531 180.047 307.811 184.465 307.049L184.463 307.04ZM185.467 312.826C183.181 313.223 181.625 314.168 180.798 315.662C179.971 317.155 179.802 319.296 180.289 322.086C180.817 325.124 181.718 327.184 183 328.256C184.281 329.327 186.054 329.658 188.339 329.261C190.649 328.857 192.22 327.935 193.063 326.5C193.905 325.065 194.057 322.821 193.529 319.783C193.042 316.994 192.159 315.036 190.872 313.912C189.586 312.788 187.787 312.428 185.477 312.832L185.467 312.826Z" fill="black"/>
+                        <path d="M152.192 308.684L149.258 330.795L157.291 331.858L156.59 337.133L133.67 334.094L134.37 328.819L142.403 329.882L145.337 307.771L152.182 308.678L152.192 308.684Z" fill="black"/>
+                        <path d="M134.57 305.533L126.911 332.072L120.281 330.158L127.94 303.619L134.57 305.533Z" fill="black"/>
+                        <path d="M123.862 302.706L112.23 327.757L99.8943 322.034C97.8996 321.109 96.432 319.943 95.5041 318.553C94.5762 317.163 94.1057 315.641 94.0948 313.996C94.084 312.351 94.4716 310.689 95.2555 309.001C96.0516 307.292 97.1139 305.941 98.4615 304.953C99.8007 303.967 101.311 303.419 102.988 303.293C104.665 303.166 106.423 303.545 108.272 304.393L114.184 307.135L117.597 299.781L123.858 302.689L123.862 302.706ZM111.95 311.97L107.438 309.874C106.119 309.26 104.954 309.16 103.956 309.58C102.958 310 102.18 310.808 101.629 311.995C101.028 313.294 100.868 314.438 101.146 315.438C101.423 316.439 102.208 317.231 103.507 317.833L108.213 320.02L111.95 311.97Z" fill="black"/>
+                        <path d="M163.229 149.178C176.855 148.754 188.767 156.714 193.352 169.536C197.306 180.585 194.65 189.539 188.966 199.256C184.623 206.679 180.523 211.334 180.012 220.47C179.969 221.284 180.376 222.945 179.476 223.144L150.062 223.187C149.37 223.187 149.05 222.919 148.972 222.235C148.747 220.28 149.145 217.84 148.609 215.893C145.875 206.03 138.228 198.633 135.208 188.925C129.3 169.951 143.306 149.801 163.229 149.178ZM162.788 154.568C146.022 155.494 135.053 172.78 140.702 188.518C144.128 198.07 151.118 204.395 153.67 214.898C153.765 215.288 154.31 217.555 154.422 217.65L174.528 217.762C174.744 217.693 174.796 217.407 174.848 217.208C175.133 216.049 175.263 214.682 175.566 213.549C177.962 204.49 185.091 197.343 188.291 188.674C194.702 171.301 181.189 153.547 162.788 154.568Z" fill="black"/>
+                        <path d="M176.344 236.044C176.742 236.009 177.018 235.966 177.434 236.035C179.7 236.416 180.462 239.548 178.463 240.785C177.78 241.209 175.712 241.529 174.821 241.668C169.276 242.533 163.67 243.139 158.098 243.891C156.238 244.142 154.136 244.731 152.242 244.757C149.776 244.783 148.513 241.91 150.304 240.18C151.368 239.159 154.811 239.124 156.316 238.899C162.805 237.939 169.847 236.537 176.335 236.044H176.344Z" fill="black"/>
+                        <path d="M175.176 226.708C175.799 226.656 177.512 226.544 178.014 226.691C178.343 226.786 179.407 228.032 179.502 228.404C180.298 231.415 177.244 231.874 175.124 232.194C168.238 233.232 161.239 234.166 154.31 234.98C152.934 235.144 152.571 235.672 151.118 235.075C149.742 234.504 149.015 232.964 149.716 231.562C150.599 229.806 152.182 230.1 153.808 229.823C159.95 228.785 166.153 228.041 172.339 227.219C173.29 227.089 174.138 226.786 175.168 226.7L175.176 226.708Z" fill="black"/>
+                        <path d="M163.947 121.474C165.565 121.171 166.88 122.132 167.191 123.698L167.174 138.839C166.88 140.457 164.7 141.642 163.255 140.742C162.373 140.188 161.888 139.289 161.793 138.268C161.378 133.639 162.096 128.404 161.793 123.706C162.2 122.633 162.71 121.699 163.93 121.474H163.947Z" fill="black"/>
+                        <path d="M108.139 177.297L123.685 177.271C125.216 177.799 125.804 178.75 125.649 180.377C125.493 182.004 124.42 182.255 123.105 182.635H108.701C105.69 182.263 105.249 178.11 108.139 177.288V177.297Z" fill="black"/>
+                        <path d="M205.481 177.297C210.239 177.626 215.932 176.726 220.586 177.271C223.674 177.634 223.692 182.168 220.3 182.635H205.896C202.73 182.159 202.41 177.989 205.49 177.297H205.481Z" fill="black"/>
+                        <path d="M134.507 206.739C135.77 206.523 136.808 206.774 137.526 207.881C138.4 209.214 137.768 210.39 136.877 211.446C133.919 214.976 129.749 218.143 126.669 221.638C123.754 222.979 121.625 220.608 122.966 217.788L133.521 207.207C133.78 206.973 134.169 206.791 134.507 206.739Z" fill="black"/>
+                        <path d="M124.602 137.8C125.64 137.584 126.211 137.973 127.05 138.492L137.475 149.056C138.824 151.02 136.869 153.746 134.663 153.175C133.59 152.898 132.405 151.401 131.644 150.657C129.671 148.754 127.569 146.781 125.675 144.826C125.026 144.151 123.503 142.706 123.053 142.057C121.972 140.517 122.681 138.198 124.619 137.792L124.602 137.8Z" fill="black"/>
+                        <path d="M203.293 137.8C204.071 137.619 205.637 138.094 206.087 138.735C206.667 139.557 206.727 141.339 206.018 142.135L195.602 152.552C194.347 153.772 191.968 153.106 191.345 151.574C190.939 150.562 191.276 149.515 191.899 148.702C194.555 145.232 199.166 142.014 202.012 138.562C202.246 138.38 203.042 137.852 203.284 137.792L203.293 137.8Z" fill="black"/>
+                        <path d="M200.325 219.622C197.79 217.174 194.304 213.947 192.055 211.36C189.805 208.773 192.202 205.606 195.255 206.999C198.197 209.88 201.199 212.735 204.071 215.668C204.979 216.594 206.519 218.013 206.554 219.32C206.597 221.119 205.317 222.192 203.552 222.019C202.358 221.898 201.181 220.462 200.325 219.64V219.622Z" fill="black"/>
+                        <path d="M157.234 248.408L170.626 248.373C171.041 248.373 171.283 248.615 171.283 249.031C171.283 249.446 170.184 251.315 169.873 251.713C169.423 252.301 168.826 252.881 168.143 253.192C165.53 254.36 160.755 254.291 158.583 252.24C158.064 251.756 156.1 248.788 157.225 248.399L157.234 248.408Z" fill="black"/>
+                        <path d="M162.208 158.799C163.739 158.695 165.487 158.375 166.525 159.638C167.373 160.676 167.511 161.723 166.663 162.822C165.452 164.397 163.004 163.982 161.178 164.336C154.863 165.565 149.837 171.232 148.859 177.513C148.669 178.725 149.119 179.867 148.427 181.009C147.484 182.557 145.148 182.895 144.041 181.389C142.83 179.745 143.617 177.133 143.997 175.272C145.745 166.785 153.332 159.413 162.199 158.79L162.208 158.799Z" fill="black"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_1010_178">
+                        <rect width="336" height="374" fill="white"/>
+                        </clipPath>
+                        </defs>
+                        </svg>
+                        
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-8 d-flex align-items-center" data-aos="zoom-in-left">
+                    <div>
                     <h5>Incentives vs. League Points Clarification</h5>
                     <div class="list item-1">
                         <h6>Incentives</h6>
@@ -279,26 +339,27 @@
                         <p>Intangible points used to qualify for rewards and tiers.</p>
                     </div>
                 </div>
+                </div>
             </div>
         </section>
         <section class="py-113 last-section">
-            <h2 class="title title-center">
+            <h2 class="title title-center" data-aos="fade-up">
                 <span class="white-text">Choose Your Path </span> <span class="blue-text">to Premier</span>
             </h2>
             <div class="w-75 m-auto text-center mt-5 mb-3">
-                <p>Whether you're a top seller, a master recruiter, or someone who thrives on consistency, there's a path to success for you. Focus on what you do best and climb the tiers to unlock amazing rewards.</p>
+                <p data-aos="fade-up">Whether you're a top seller, a master recruiter, or someone who thrives on consistency, there's a path to success for you. Focus on what you do best and climb the tiers to unlock amazing rewards.</p>
             </div>
             <div class="w-85 m-auto row mt-5">
-                <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="col-sm-12 col-md-4 col-lg-4 lastSection" data-aos="fade-up">
                     <h4>Top 
                         Seller</h4>
                     <p>Maximize your commissions by focusing on product knowledge, closing deals, and offering exceptional service. Earn exclusive rewards as you climb the sales tiers.</p>
                 </div>
-                <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="col-sm-12 col-md-4 col-lg-4 lastSection" data-aos="fade-up">
                     <h4>Master Recruiter</h4>
                     <p>Build an incredible team by identifying talent, mentoring new reps, and growing your network. Watch your organization flourish and earn tiered bonuses.</p>
                 </div>
-                <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="col-sm-12 col-md-4 col-lg-4 lastSection" data-aos="fade-up">
                     <h4>Holiday 
                         Hustler</h4>
                     <p>Stay relentless during peak seasons and special promotions. Show up strong when it counts the most and climb the tiers through consistent effort and grit.</p>
@@ -314,10 +375,12 @@
 <script src="
 https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
 "></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
 <script>
+    AOS.init();
     new Splide('.splide', {
         perPage: 2,
         perMove: 1,
