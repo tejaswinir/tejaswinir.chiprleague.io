@@ -1482,6 +1482,12 @@ header {
 }
 
 @media screen and (max-width: 768px) {
+    .navbar{
+        background-color: transparent;
+    }
+    .navbar.shrink{
+        background-color: #000;
+    }
     .home-content-wrap{
         width: 80%;
     }
