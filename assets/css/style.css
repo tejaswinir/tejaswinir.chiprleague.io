@@ -69,25 +69,25 @@
     padding: 70px 0;
 }
 .p-80{
-    padding: 5.063em;
+    padding: 5.063rem;
 }
 .pt-80{
     padding: 5.063em 0;
 }
 .px-113{
-    padding: 0 7.375em;
+    padding: 0 7.375rem;
 }
 .pl-134{
-    padding-left: 8.563em;
+    padding-left: 8.563rem;
 }
 .pr-72{
-    padding-right: 4.5em;
+    padding-right: 4.5rem;
 }
 .pb-40{
     padding-bottom: 3.958vw;
 }
 .mt-113{
-    margin-top: 7.375em;
+    margin-top: 7.375rem;
 }
 .bg-teal {
     background-color: var(--teal);
@@ -170,7 +170,7 @@ header {
     color: #fff;
     font-family: "Kanit", serif;
     font-weight: 800;
-    font-size: 1.063em;
+    font-size: 1.7rem;
     line-height: 130.5%;
 }
 
@@ -212,6 +212,9 @@ header {
     margin-left: 1.25rem;
     margin-right: 1.25rem;
 }
+.shrink .nav-link{
+  font-size: 1.5rem;
+}
 /*headers*/
 
 .home-screen-bg {
@@ -236,7 +239,7 @@ header {
 
 .home-content-wrap h5 {
     font-weight: 900;
-    font-size: 2.5em;
+    font-size: 2.5rem;
     line-height: 84.5%;
     text-transform: uppercase;
     margin-bottom: 0;
@@ -244,7 +247,7 @@ header {
 
 .home-content-wrap h1 {
     font-weight: 900;
-    font-size: 8.625em;
+    font-size: 8.625rem;
     line-height: 84.5%;
     color: var(--blue);
     text-transform: uppercase;
@@ -255,7 +258,7 @@ header {
 }
 
 .home-content-wrap h4 {
-    font-size: 4.375em    ;
+    font-size: 4.375rem;
     line-height: 91.5%;
     font-weight: 900;
     text-transform: uppercase;
@@ -264,7 +267,7 @@ header {
 
 .home-content-wrap p {
     font-weight: 100;
-    font-size: 2.063em;
+    font-size: 2.063rem;
     line-height: 1;
 }
 
@@ -294,6 +297,7 @@ header {
      2px  2px 0px #fff;
     color: var(--blue);
     letter-spacing: 8px;
+    text-transform: uppercase;
 }
 
 
@@ -358,7 +362,7 @@ header {
 }
 
 .home-card-section .card-wrapper p{
-    font-size: 1.375em;
+    font-size: 1.375rem;
 }
 
 .home-card-section .card-wrapper h3 .sub-head {
@@ -415,7 +419,7 @@ header {
    transition: all 0.8s ease-in-out;
 }
 .season-section h1{
-    font-size: 4.375em;
+    font-size: 4.375rem;
     font-weight: 900;
     text-transform: uppercase;
 }
@@ -469,10 +473,10 @@ header {
     background-image: url(../img/calendar.png);
     background-size: contain;
     background-position: left center;
-    font-size: 3.125em;
+    font-size: 3.125rem;
     font-weight: 900;
     background-repeat: no-repeat;
-    padding-left: 2.25em;
+    padding-left: 2.25rem;
     text-transform: uppercase;
     line-height: 94.5%;
     margin-bottom: 30px;
@@ -480,7 +484,7 @@ header {
 
 .season-section h2 {
     font-weight: 900;
-    font-size: 6.25em;
+    font-size: 6.25rem;
     line-height: 94%;
     text-transform: uppercase;
     color: var(--pink)
@@ -488,26 +492,26 @@ header {
 
 .season-section .wrapper {
     width: 100%;
-    padding: 8.125em 0;
+    padding: 8.125rem 0;
     position: relative;
 }
 
 .season-section h4 {
     font-weight: 800;
-    font-size: 3.75em;
+    font-size: 3.75rem;
     line-height: 88%;
     text-transform: uppercase;
     margin-bottom: 50px;
 }
 .season-section h5{
-    font-size:  3.125em;
+    font-size:  3.125rem;
     text-transform: uppercase;
     font-weight: 800;
 }
 
 .season-section p {
     font-weight: 400;
-    font-size: 2.063em;
+    font-size: 2.063rem;
     line-height: 1.2
 }
 
@@ -608,7 +612,7 @@ header {
     background: url("../img/logo-big.svg") center/contain no-repeat;
 }
 
-.chipr-league .section-header h1
+.chipr-league .section-header h1,
 .chipr-league .section-header .h1 {
     font-weight: 900;
     color: var(--blue);
@@ -635,7 +639,7 @@ header {
 
 .title {
     color: white;
-    font-size: 3.75em;
+    font-size: 3.75rem;
     font-weight: bold;
     text-transform: uppercase;
     display: flex;
@@ -731,10 +735,10 @@ header {
     margin-bottom: 0;
     line-height: 1;
     padding-right: 2%;
-    margin-bottom: 2em;
+    margin-bottom: 2rem;
 }
 .seasonal-section3 p {
-    font-size: 2.063em    ;
+    font-size: 2.063rem;
     line-height: 1.1;
 }
 .league-wrap{
@@ -748,8 +752,8 @@ header {
 }
 .league-wrap::after{
     content: '';
-    width: 4.438em;
-    height: 4.438em;
+    width: 4.438rem;
+    height: 4.438rem;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -788,7 +792,7 @@ header {
     text-align: center;
 }
 .seasonal-award-section h4{
-    font-size: 3.75em;
+    font-size: 3.75rem;
     font-weight: 800;
     color: #fff;
     margin-top: 47px;
@@ -797,7 +801,7 @@ header {
 
 .seasonal-award-section p {
     font-weight: 400;
-    font-size: 1.75em    ;
+    font-size: 1.75rem;
     line-height: 1;
 }
 .seasonal-award-section .flex-item{
@@ -829,34 +833,34 @@ header {
 
 .tiers-section p{
     color: #000;
-    font-size: 1.375em;
+    font-size: 1.375rem;
     line-height: 1;
     font-weight:400 ;
 }
 .tiers-section h5{
-    font-size: 2.063em;
+    font-size: 2.063rem;
     font-weight: 900;
     line-height: 1;
 }
 
 .tiers-section p.small,
 .col-wrap p.small{
-    font-size: 1.438em;
+    font-size: 1.438rem;
     font-weight: 100;
 }
 .tiers-section p .big,
 .col-wrap p .big {
-    font-size: 3.5em    ;
+    font-size: 3.5rem;
     font-weight: 100;
 }
 
 .league-section p {
-    font-size: 2.063em;
+    font-size: 2.063rem;
     line-height: 1.1;
     font-weight: 400;
 }
 .league-section .box li{
-    font-size: 1.375em;
+    font-size: 1.375rem;
     line-height: 1.1;
     font-weight: 400;
     margin-bottom: 0.9em;
@@ -869,7 +873,7 @@ header {
 }
 
 .league-section .box h5{
-    font-size: 2em;
+    font-size: 2rem;
     font-weight: 900;
    
     line-height: 0.9;
@@ -886,7 +890,7 @@ header {
     color: #000
 }
 .league-points-section h5{
-    font-size: 3.5em;
+    font-size: 3.5rem;
     font-weight: 900;
     line-height: 1;
     text-transform: uppercase;
@@ -917,8 +921,8 @@ header {
     font-size: 0.8793vw;
 } */
 .league-points-section .list{
-    font-size: 2.063em;
-    margin-bottom: 2em;
+    font-size: 2.063rem;
+    margin-bottom: 2rem;
 }
 .league-points-section .list h6{
     font-weight: 900;
@@ -979,7 +983,7 @@ header {
     line-height: 1.5;
 } 
 .lastSection h4{
-    font-size: 3.5em;
+    font-size: 3.5rem;
     color: var(--pink);
     text-transform: uppercase;
     font-weight: 800;
@@ -1003,14 +1007,14 @@ header {
     height: 0;
 }
 .lastSection:hover h4{
-    font-size: 2.8em;
+    font-size: 2.8rem;
 }
 
 .levelup-section{
     text-align: center;
 }
 .levelup-section p{
-    font-size: 2.063em;
+    font-size: 2.063rem;
     line-height: normal;
 }
 .levelup-section h6{
@@ -1255,13 +1259,15 @@ header {
 .swag-col .show{
     position: absolute;
     width: 100%;
-    height: 112%;
+    height: auto;
     bottom: -80px;
   transition: bottom 0.5s ease-in-out, opacity 0.2s ease-in-out;
   opacity: 0;
+  display: flex;
 }
+
 .col-wrap:hover .show{
-    top: 0;
+    bottom: 0;
     opacity: 1;
 }
 .col-wrap:hover .hide{
@@ -1275,9 +1281,22 @@ header {
     flex: 0 0 auto;
     width: 25%;
 }
+.swag-m-w{
+    width: 320px;
+}
 
 .tab-space{
     margin-top: 16.08vw;
+}
+.overflow-auto{
+    width: 100%; 
+    white-space: nowrap; 
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    padding-top: 150px;
+    gap: 20px;
 }
 .certificate-wrap h3{
     font-weight: 900;
@@ -1339,7 +1358,7 @@ header {
     font-size: 4.375em;
 }
 .forge-section h2{
-    font-size: 3.75em;
+    font-size: 3.75rem;
     font-weight: 900;
 }
 .forge-sec2{
@@ -1397,6 +1416,12 @@ header {
     padding-right: 6.042vw;
     padding-bottom: 6.302vw;
 }
+.forge-svg-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-flow: row;
+}
+
 .faq-section .section-header{
     width: 100vw;
     height: 80vh;
@@ -1418,6 +1443,9 @@ header {
     font-weight: 800;
     font-size: 4.625em;
 }
+.faq-form-section h6{
+    font-size: 2.063rem;
+}
 
 .faq-wrapper{
     border: 1px solid #fff;
@@ -1428,7 +1456,7 @@ header {
 }
 
 .faq-wrapper #pills-tab .nav-link{
-    font-size: 1.375em;
+    font-size: 1.375rem;
     font-weight: 500;
     text-transform: uppercase;
     color: #fff;
@@ -1451,7 +1479,7 @@ header {
 .faq-wrapper .tab-pane .nav-pills .nav-link{
     padding-right: 60px;
     position: relative;
-    font-size: 1.375em;
+    font-size: 1.375rem;
     margin-bottom: 1.5rem;
 }
 .faq-wrapper .tab-pane .nav-pills .nav-link.active{
@@ -1476,16 +1504,17 @@ header {
 }
 .faq-wrapper .tab-content p {
     font-weight: 400;
-    font-size: 1.375em    ;
+    font-size: 1.375rem;
     line-height: 1.5;
 }
 .faq-section2 h6 {
-    font-size: 2.063em;
+    font-size: 2.063rem;
 }
 .faq-section .form-label, .faq-section .form-control{
-    font-size: 0.955vw;
+    font-size: 1.313rem;
     font-weight: 100;
 }
+  
 @media screen and (min-width: 680px) {
 
     .seasonal-award-section .flex-item:nth-child(n+5){
@@ -1531,7 +1560,7 @@ header {
         }
     }
     .season-section h2 {
-        font-size: 4.25em;
+        font-size: 4.25rem;
     }
     .season-section .content-wrap{
         width: 80%;
