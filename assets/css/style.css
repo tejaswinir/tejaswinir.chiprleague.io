@@ -369,6 +369,10 @@ header {
     color: #000
 }
 
+.home-card-section .card-wrapper:hover h3{
+    color: var(--blue)
+}
+
 .footer {
     width: 80%;
     height: 22rem;
