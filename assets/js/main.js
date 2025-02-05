@@ -1,9 +1,9 @@
 
 document.addEventListener("DOMContentLoaded", function () {
     let parentContainer = document.querySelector(".forge-milestone-md");
-    
-    let svgElement = parentContainer.getElementsByTagName("svg")
-
+    if(parentContainer){
+    var svgElement = parentContainer.getElementsByTagName("svg")
+    }
     function checkVisibility(){
         let rect = parentContainer.getBoundingClientRect();
 
@@ -26,6 +26,6 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   window.addEventListener("scroll", checkVisibility);
-  checkVisibility();  // Run once on page load
+  // Run once on page load
   AOS.init();
 });
