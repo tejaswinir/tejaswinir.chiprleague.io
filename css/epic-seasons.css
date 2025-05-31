@@ -197,21 +197,21 @@ marquee {
     margin: 0 auto;
 }
 .seasonal-awards:hover .highest-season-points{
-    background-image: url("../images/epic-seasons/highest-season-points-hover.png");
+    background-image: url("../images/epic-seasons/highest-season-points-hover.svg");
     width: 64px;
     height: 66px;
     background-repeat: no-repeat;
     margin: 0 auto;
 }
 .seasonal-awards .seasonal-awards-content .consistent-team{
-    background-image: url("../images/epic-seasons/consistent-team.png");
+    background-image: url("../images/epic-seasons/consistent-team.svg");
     width: 80px;
     height: 64px;
     background-repeat: no-repeat;
     margin: 0 auto;
 }
 .seasonal-awards:hover .consistent-team{
-    background-image: url("../images/epic-seasons/consistent-team-hover.png");
+    background-image: url("../images/epic-seasons/consistent-team-hover.svg");
     width: 80px;
     height: 64px;
     background-repeat: no-repeat;
@@ -225,7 +225,7 @@ marquee {
     margin: 0 auto;
 }
 .seasonal-awards:hover .best-closer{
-    background-image: url("../images/epic-seasons/best-closer-hover.png");
+    background-image: url("../images/epic-seasons/best-closer-hover.svg");
     width: 73px;
     height: 73px;
     background-repeat: no-repeat;
@@ -253,7 +253,7 @@ marquee {
     margin: 0 auto;
 }
 .seasonal-awards:hover .predictor{
-    background-image: url("../images/epic-seasons/predictor-hover.png");
+    background-image: url("../images/epic-seasons/predictor-hover.svg");
     width: 73px;
     height: 76px;
     background-repeat: no-repeat;
@@ -267,7 +267,7 @@ marquee {
     margin: 0 auto;
 }
 .seasonal-awards:hover .personal-bests{
-    background-image: url("../images/epic-seasons/personal-bests-hover.png");
+    background-image: url("../images/epic-seasons/personal-bests-hover.svg");
     width: 65px;
     height: 64px;
     background-repeat: no-repeat;
@@ -281,7 +281,7 @@ marquee {
     margin: 0 auto;
 }
 .seasonal-awards:hover .records-broken{
-    background-image: url("../images/epic-seasons/records-broken-hover.png");
+    background-image: url("../images/epic-seasons/records-broken-hover.svg");
     width: 59px;
     height: 67px;
     background-repeat: no-repeat;
@@ -295,7 +295,7 @@ marquee {
     margin: 0 auto;
 }
 .seasonal-awards:hover .activity-level{
-    background-image: url("../images/epic-seasons/activity-level-hover.png");
+    background-image: url("../images/epic-seasons/activity-level-hover.svg");
     width: 56px;
     height: 77px;
     background-repeat: no-repeat;
@@ -326,6 +326,10 @@ marquee {
 .points-system .points-system-content:hover {
     background: #fff;
     color: #FCCA46;
+}
+
+.points-system .points-system-content:hover h4{
+     color: #FCCA46;
 }
 .points-system .points-system-content:hover ul li {
     color: #000;

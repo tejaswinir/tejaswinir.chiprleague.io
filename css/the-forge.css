@@ -16,12 +16,12 @@
     font-size: 70px;
     color: #fff;
     text-transform: uppercase;
-    padding-left: 90px;
+    padding-left: 20px;
     line-height: 95%;
     width: 67%;
 }
 marquee {
-    background-color: #3AA8CC;
+    background-color: #30A46E;
 }
 /* new hires */
 .new-hires {
@@ -54,7 +54,7 @@ marquee {
     scale: 1.05;
 }
 .new-hires-block .new-hires-structured {
-    background-color: #3AA7CB;
+    background-color: #30A46E;
 }
 .new-hires-block .new-hires-personal {
     background-color: #fff;
@@ -105,10 +105,10 @@ marquee {
     right: 0;
     width: 100%;
     bottom: 50%;
-    border-bottom: 1px solid #3AA7CB;
+    border-bottom: 1px solid #30A46E;
 }
 .d2d-explained .d2d-explained-header h2 .text-2 {
-    color: #F29DAA;
+    color: #FCCA46;
 }
 .d2d-explained .d2d-explained-content {
     position: relative;
@@ -155,7 +155,6 @@ marquee {
     .top-slider .slider-logo h3 {
         font-size: 34px;
         width: 350px;
-        padding-left: 45px;
     }
     .new-hires h3 {
         font-size: 24px;
@@ -224,7 +223,7 @@ marquee {
         top: 20px;
     }
     .d2d-explained-content-md .d2d-right {
-        color: #F29DAA;
+        color: #FCCA46;
         text-align: left;
         border-right: none;
         padding: 15px 0px 15px 15px;
