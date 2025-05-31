@@ -139,18 +139,26 @@ marquee {
 }
 
 /* applies to small devices (landscape phones, less than 768px) */
-/* applies to medium devices (tablets, less than 992px) */
+/* applies to medium devices (tablets, less than 992px) */ 
+@media(max-width: 600px){
+     .top-slider .slider-logo {
+ flex-flow: column;
+     }
+}
 @media (max-width: 991.98px) {
     .top-slider .slider-images {
         background-position: 80%;
         height: calc(100vh - 143px);
         background-repeat: no-repeat;
     }
+
     .top-slider .slider-images .slider-img-2 {
-        width: 300px;
+        width: 150px;
+        margin-bottom: 20px;
     }
     .top-slider .slider-logo {
         left: -45px;
+       
     }
     .top-slider .slider-logo h3 {
         font-size: 34px;
