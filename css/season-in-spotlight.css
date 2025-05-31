@@ -216,6 +216,9 @@ marquee {
     top: 15px;
     left: 15px;
 }
+.gifts .gift-details .hat span{
+    color: #FCCA46
+}
 
 /* applies to small devices (landscape phones, less than 768px) */
 /* applies to medium devices (tablets, less than 992px) */
