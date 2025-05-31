@@ -1,0 +1,284 @@
+.top-slider .slider-images {
+    position: relative;
+    background: url("../images/the-forge/slider-1.avif");
+    background-size: cover;
+    height: calc(100vh - 205px);
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+.top-slider .slider-logo {
+    position: relative;
+    left: -90px;
+}
+.top-slider .slider-logo h3 {
+    font-family: "Black";
+    font-size: 70px;
+    color: #fff;
+    text-transform: uppercase;
+    padding-left: 90px;
+    line-height: 95%;
+    width: 67%;
+}
+marquee {
+    background-color: #3AA8CC;
+}
+/* new hires */
+.new-hires {
+    background-color: #000;
+    color: #fff;
+    padding: 100px 0 50px;
+}
+.new-hires h3 {
+    text-transform: uppercase;
+    font-family: "Black";
+    font-size: 60px;
+    width: 91%;
+    line-height: 91%;
+    margin: 0 auto;
+}
+.new-hires-block .new-hire-logo img {
+    height: 77px;
+}
+.new-hires-block .new-hires-structured,
+.new-hires-block .new-hires-personal {
+    height: 100%;
+    font-family: "Bold";
+    font-size: 50px;
+    line-height: 52px;
+    scale: 1;
+    transition: scale 0.2s ease;
+}
+.new-hires-block .new-hires-structured:hover,
+.new-hires-block .new-hires-personal:hover {
+    scale: 1.05;
+}
+.new-hires-block .new-hires-structured {
+    background-color: #3AA7CB;
+}
+.new-hires-block .new-hires-personal {
+    background-color: #fff;
+    color: #000;
+}
+.new-hires-block .new-hire-logo {
+    display: flex;
+    justify-content: flex-end;
+}
+.new-hires-block p {
+    width: 75%;
+    margin: 5% 10%;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* d2d */
+.d2d-explained {
+    background-color: #000;
+    padding: 20px 100px 50px;
+}
+.container.d2d-explained-content {
+    margin: 50px 0;
+}
+.d2d-explained .d2d-explained-header {
+    padding: 0;
+    position: relative;
+    margin-bottom: 50px;
+}
+.d2d-explained .d2d-explained-header h2 {
+    font-family: "ExtraBold";
+    font-size: 60px;
+    color: #fff;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    background: #000;
+    width: max-content;
+    margin: 0 auto;
+    z-index: 1;
+    position: relative;
+    padding: 0 20px;
+}
+.d2d-explained .d2d-explained-header .title-border-bottom {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    bottom: 50%;
+    border-bottom: 1px solid #3AA7CB;
+}
+.d2d-explained .d2d-explained-header h2 .text-2 {
+    color: #F29DAA;
+}
+.d2d-explained .d2d-explained-content {
+    position: relative;
+}
+.d2d-explained .d2d-explained-content .d2d-end-container .d2d-end { 
+    position: absolute;
+    height: 151px;
+    bottom: calc(0% - 32px);
+    left: 50%;
+    background-repeat: no-repeat;
+}
+.d2d-explained .d2d-explained-content .d2d-end-container .d2d-end-hover { 
+    position: absolute;
+    height: 151px;
+    bottom: calc(0% - 32px);
+    left: 50%;
+    padding: 0 10px 10px 10px;
+}
+.d2d-explained .d2d-explained-content .d2d-end-container:hover .d2d-end {
+    display: none;
+}
+.d2d-explained .d2d-explained-content .d2d-end-container:hover .d2d-end-hover {
+    display: block;
+}
+.d2d-explained .d2d-explained-content .d2d-end-hover {
+    display: none;
+    background: #555;
+}
+
+/* applies to small devices (landscape phones, less than 768px) */
+/* applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .top-slider .slider-images {
+        background-position: 80%;
+        height: calc(100vh - 143px);
+        background-repeat: no-repeat;
+    }
+    .top-slider .slider-images .slider-img-2 {
+        width: 300px;
+    }
+    .top-slider .slider-logo {
+        left: -45px;
+    }
+    .top-slider .slider-logo h3 {
+        font-size: 34px;
+        width: 350px;
+        padding-left: 45px;
+    }
+    .new-hires h3 {
+        font-size: 24px;
+        width: 92%;
+        line-height: 100%;
+    }
+    .new-hires {
+        padding: 50px 0 50px;
+    }
+    .new-hires-block .new-hire-logo img {
+        height: 45px;
+    }
+    .new-hires-block .new-hires-structured,
+    .new-hires-block .new-hires-personal {
+        font-size: 26px;
+        line-height: 28px;
+    }
+    .new-hires-block .new-hires-personal {
+        margin-top: 20px;
+    }
+    .new-hires-block p {
+        width: 85%;
+        margin: 5%;
+    }
+    .d2d-explained {
+        background-color: #000;
+        padding: 0px 50px 50px;
+    }
+    .d2d-explained .d2d-explained-header h2 {
+        font-size: 30px;
+    }
+    .d2d-explained .d2d-explained-header {
+        margin-bottom: 30px;
+    }
+    .d2d-explained-content-md > div {
+        justify-content: center;
+    }
+    .d2d-explained-content-md .d2d-left,
+    .d2d-explained-content-md .d2d-right {
+        color: #fff;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: right;
+        width: 100%;
+        padding: 15px 15px 15px 0px;
+        border-right: 1px solid #ffffff85;
+        position: relative;
+    }
+    .d2d-explained-content-md > div:first-child .d2d-left,
+    .d2d-explained-content-md > div:first-child .d2d-right {
+        padding-top: 0;
+        font-size: 20px;
+        font-family: 'Black';
+    }
+    .d2d-explained-content-md > div:last-child .d2d-left {
+        padding-bottom: 30px;
+    }
+    .d2d-explained-content-md > div:not(:first-child) .d2d-left:after {
+        content: '';
+        position: absolute;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: #fff;
+        right: -3px;
+        top: 20px;
+    }
+    .d2d-explained-content-md .d2d-right {
+        color: #F29DAA;
+        text-align: left;
+        border-right: none;
+        padding: 15px 0px 15px 15px;
+    }
+    .d2d-explained-content-md .d2d-left span,
+    .d2d-explained-content-md .d2d-right span {
+        width: 100%;
+        display: inline-block;
+    }
+    .d2d-hover-mobile {
+        text-align: center;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    .d2d-hover-mobile img {
+        padding: 2px 10px 12px 10px;
+        width: fit-content;
+    }
+}
+
+/* Apply styles starting from medium devices and up to extra large devices */
+@media (min-width: 992px) and (max-width: 1399.98px) { 
+    .top-slider .slider-images .slider-img-2 {
+        width: 70%;
+    }
+    .top-slider .slider-logo h3 {
+        font-size: 45px;
+    }
+    .new-hires h3 {
+        font-size: 50px;
+    }
+    .new-hires-block .new-hires-structured,
+    .new-hires-block .new-hires-personal {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .new-hires-block .new-hire-logo img {
+        height: 67px;
+    }
+    .d2d-explained .d2d-explained-header h2 {
+        font-size: 50px;
+    }
+    .d2d-explained .d2d-explained-content .d2d-end-container .d2d-end { 
+        position: absolute;
+        height: 100px;
+        bottom: calc(0% - 20px);
+        left: 50%;
+        background-repeat: no-repeat;
+    }
+    .d2d-explained .d2d-explained-content .d2d-end-container .d2d-end-hover { 
+        position: absolute;
+        height: 100px;
+        bottom: calc(0% - 20px);
+        left: 50%;
+    }
+}

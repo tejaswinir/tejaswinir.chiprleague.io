@@ -1,0 +1,263 @@
+.top-slider {
+    position: relative;
+}
+.top-slider .slider-text {
+    position: absolute;
+    color: #fff;
+    width: 36%;
+    top: 8%;
+}
+.top-slider .slider-text:hover h1 {
+    color: #FCCA46;
+}
+.top-slider .slider-images {
+    display: flex;
+    width: 100%;
+    background: rgba(0, 0, 0, 1);
+    min-height: 300px;
+}
+.top-slider .slider-images .overlay {
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: relative;
+}
+.slider-images .slider-image-1 {
+    background: url(../images/home/slider1.avif);
+    background-size: cover;
+}
+.top-slider .slider-images img {
+    width: 100%;
+    height: 100%;
+}
+.slider-images .slider-image-2 .play-video {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 52px;
+    height: 52px;
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 300ms ease-in-out;
+    cursor: pointer;
+}
+.slider-images .slider-image-2 {
+    position: relative;
+    overflow: hidden;
+}
+.slider-images .slider-image-2 .play-video:before {
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid #fff;
+    content: '';
+}
+.slider-images .slider-image-2 img {
+    scale: 1;
+    transition: scale 300ms ease-in-out;
+    cursor: pointer;
+}
+.slider-images .slider-image-2:hover img {
+    scale: 1.1;
+}
+.slider-images .slider-image-2:hover .play-video {
+    width: 70px;
+    height: 70px;
+}
+.about-chipr {
+    padding: 100px 0;
+    background-color: #000;
+}
+.about-chipr .what-chipr {
+    padding-right: 25px;
+}
+.about-chipr .why-chipr {
+    padding-left: 25px;
+}
+.about-chipr .about-chipr-content {
+    height: 411px;
+    background-color: #FCCA46;
+    position: relative;
+    color: #fff;
+    padding: 8% 11%;
+}
+.about-chipr .about-chipr-content h5 {
+    font-family: "Black";
+    text-transform: uppercase;
+    line-height: 106.5%;
+}
+.about-chipr .about-chipr-content ul li {
+    font-size: 22px;
+    line-height: 130.5%;
+    margin: 20px 0 0 0;
+}
+.about-chipr .about-chipr-content .color-gray {
+    color: #000;
+}
+/* about-chipr-content hover */
+.about-chipr .about-chipr-content:hover {
+    background-color: #fff;
+    color: #000;
+}
+.about-chipr .about-chipr-content:hover .color-white {
+    color: #30A56E;
+}
+.about-chipr .about-chipr-content:hover .border-white {
+    border: 2px solid #30A56E !important;
+}
+/* about-chipr-content hover ends */
+.top-slider h5,
+.top-slider h1,
+.top-slider h4  {
+    font-family: "Black";
+    line-height: 84%;
+}
+.top-slider h1 {
+    color: #30A46E;
+}
+.top-slider h4 {
+    line-height: 91.5%;
+}
+.top-slider p {
+    font-family: "Light";
+    line-height: 37px;
+    margin-top: 35px;
+}
+@media (min-width: 1400px) {
+    .top-slider h5,
+    .top-slider h1,
+    .top-slider h4  {
+        font-family: "Black";
+        font-size: 40px;
+        line-height: 84%;
+    }
+    .top-slider h1 {
+        font-size: 170px;
+        color: #30A46E;
+    }
+    .top-slider h4 {
+        font-size: 70px;
+        line-height: 91.5%;
+        width: 600px;
+    }
+    .top-slider p {
+        font-family: "Light";
+        font-size: 33px;
+        line-height: 37px;
+        margin-top: 35px;
+        width: 600px;
+    }
+    .about-chipr .about-chipr-content h5 {
+        font-size: 50px;
+    }
+}
+.border-white {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    border: 2px solid #fff;
+    width: 100%;
+    height: 100%;
+}
+
+/* applies to small devices (landscape phones, less than 768px) */
+/* applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .top-slider h5,
+    .top-slider h1,
+    .top-slider h4  {
+        font-size: 19px;
+    }
+    .top-slider h1 {
+        font-size: 79px;
+    }
+    .top-slider h4 {
+        font-size: 34px;
+        width: 100%;
+    }
+    .top-slider p {
+        font-size: 14px;
+        margin-top: 20px;
+        line-height: 22px;
+        width: auto;
+    }
+    .top-slider .slider-text {
+        position: static;
+        max-width: 100%;
+        width: auto;
+    }
+    /* slider */
+    .slider-images .slider-image-1 {
+        background-position: center;
+    }
+    .slider-image-1 .slider-image-2 {
+        margin: 0 auto;
+        width: 275px;
+    }
+    /* about */
+    .about-chipr {
+        padding: 50px 0;
+    }
+    .about-chipr .about-chipr-content h5 {
+        font-size: 18px;
+    }
+    .about-chipr .about-chipr-content ul li {
+        font-size: 14px;
+    }
+    .about-chipr .what-chipr {
+        padding-right: 12px;
+    }
+    .about-chipr .why-chipr {
+        padding-left: 12px;
+        margin-top: 27px;
+    }
+    .about-chipr .about-chipr-content {
+        height: auto;
+    }
+    .border-white {
+        left: 5px;
+        top: 5px;
+        border: 1px solid #fff;
+    }
+}
+
+ /* Apply styles starting from medium devices and up to extra large devices */
+@media (min-width: 992px) and (max-width: 1399.98px) { 
+    .top-slider .slider-text {
+        top: 15%;
+    }
+    .top-slider h5,
+    .top-slider h1,
+    .top-slider h4  {
+        font-size: 19px;
+    }
+    .top-slider h1 {
+        font-size: 79px;
+    }
+    .top-slider h4 {
+        font-size: 34px;
+        width: 350px;
+    }
+    .top-slider p {
+        font-size: 18px;
+        margin-top: 20px;
+        line-height: 22px;
+        width: 350px;
+    }
+    /* About */
+    .about-chipr .about-chipr-content h5 {
+        font-size: 35px;
+    }
+    .about-chipr .about-chipr-content ul li {
+        font-size: 20px;
+    }
+    .about-chipr .about-chipr-content {
+        padding: 8% 10%;
+        height: 380px;
+    }
+
+}

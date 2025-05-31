@@ -1,0 +1,653 @@
+.top-slider .slider-images {
+    position: relative;
+    background: url("../images/champions-club/hero.jpg");
+    background-size: cover;
+    height: calc(100vh - 205px);
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+.top-slider .slider-logo {
+    position: relative;
+    left: -45px;
+}
+.top-slider .slider-logo h3 {
+    font-family: "ExtraBold";
+    font-size: 55px;
+    line-height: 94%;
+    color: #fff;
+    text-transform: uppercase;
+    padding-left: 45px;
+    width: 70%;
+}
+
+.about-champions-league {
+    padding: 100px 0;
+    background-color: #000;
+}
+.about-champions-league .about-champions-league-content {
+    font-family: "SemiBold";
+    background-color: #30A46E;
+    position: relative;
+    color: #000;
+    padding: 10%;
+    text-transform: uppercase;
+    height: 100%;
+}
+.about-champions-league .about-champions-league-content:hover {
+    background-color: #FCCA46;
+}
+.about-champions-league .about-champions-league-content span {
+    color: #fff;
+}
+.about-champions-league .about-champions-league-content p {
+    font-size: 33px;
+    line-height: 130.5%;
+    margin: 20px 0 0 0;
+}
+.about-champions-league .about-champions-league-content .color-gray {
+    color: #000;
+}
+.border-white {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    border: 2px solid #fff;
+    width: 100%;
+    height: 100%;
+}
+.champions-club-carousel .champions-club-carousel-header {
+    padding: 0;
+    position: relative;
+}
+.champions-club-carousel .champions-club-carousel-header h2 {
+    font-family: "ExtraBold";
+    font-size: 60px;
+    color: #fff;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    background: #000;
+    width: max-content;
+    margin: 0 auto;
+    z-index: 1;
+    position: relative;
+    padding: 0 20px;
+}
+.champions-club-carousel .champions-club-carousel-header .title-border-bottom {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    bottom: 50%;
+    border-bottom: 1px solid #30A46E;
+}
+.how-to-qualify {
+    background: #000;
+    padding-bottom: 50px;
+}
+.champions-club-carousel .champions-club-carousel-header h2 .text-2 {
+    color: #FCCA46;
+}
+.champions-club-carousel .carousel > div {
+    margin: -50px 0;
+}
+.champions-club-carousel .carousel img {
+    width: 60%;
+    margin-bottom: 46px;
+    margin-top: 40px;
+}
+/* .champions-club-carousel .carousel .qualify-1 {
+    text-align: left;
+}
+.champions-club-carousel .carousel .qualify-2 {
+    text-align: center;
+}
+.champions-club-carousel .carousel .qualify-3 {
+    text-align: right;
+} */
+.champions-club-carousel-slider .qualify-container {
+    width: 55%;
+    margin-top: 50px;
+}
+.champions-club-carousel-slider .qualify-container .count {
+    background: #30A46E;
+    font-family: "ExtraBold";
+    font-size: 76px;
+    -webkit-text-stroke: 1px #fff;
+    -webkit-text-fill-color: transparent;
+    line-height: 60px;
+    box-shadow: 5px 5px 0px 5px #000;
+    z-index: 2;
+    position: absolute;
+    width: 117px;
+    top: -40px;
+    left: 0px;
+    height: 96px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+}
+.champions-club-carousel-slider .qualify-container:hover .count  {
+    left: 51px;
+    height: 60px;
+    font-size: 29px;
+    top: 0px;
+    width: 60px;
+    box-shadow: 4px 4px 0px 4px #000;
+}
+.champions-club-carousel-slider .qualify-container .qualify-desc {
+    background: #fff;
+    padding: 50px 20px 50px 110px;
+    width: calc(100% - 40px);
+    position: relative;
+    left: 40px;
+}
+.champions-club-carousel-slider .qualify-container h6 {
+    color: #30A46E;
+    font-family: "Bold";
+    font-size: 38px;
+    line-height: 34px;
+    text-transform: uppercase;
+    transition: font-size 0.2s ease-in;
+}
+.champions-club-carousel-slider .qualify-container p {
+    color: #151716;
+    font-size: 22px;
+    line-height: 24px;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+.champions-club-carousel-slider .qualify-container.qualify-2 {
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.champions-club-carousel-slider .qualify-container.qualify-2 .count {
+    background: #FCCA46;
+}
+.champions-club-carousel-slider .qualify-container.qualify-2 h6 {
+    color: #FCCA46;
+}
+.champions-club-carousel-slider .qualify-container.qualify-3 {
+    margin-left: auto;
+    margin-top: 100px;
+}
+.champions-club-carousel-slider .qualify-container.qualify-3 .count {
+    background: #252422;
+}
+.champions-club-carousel-slider .qualify-container.qualify-3 h6 {
+    color: #252422;
+}
+.champions-club-carousel-slider .qualify-container.qualify-1:hover .qualify-desc {
+    background: #30A46E;
+}
+.champions-club-carousel-slider .qualify-container.qualify-2:hover .qualify-desc {
+    background: #FCCA46;
+}
+.champions-club-carousel-slider .qualify-container.qualify-3:hover .qualify-desc {
+    background: #252422;
+}
+.champions-club-carousel-slider .qualify-container:hover .qualify-desc h6 { 
+    color: #fff;
+    font-size: 39px;
+    transition: all 0.2s ease-in;
+}
+.champions-club-carousel-slider .qualify-container:hover .qualify-desc p{
+      color: #fff;
+}
+/* exclusive rewards */
+.exclusive-rewards {
+    padding: 100px 0;
+    background: #fff;
+}
+.exclusive-rewards .exclusive-rewards-header {
+    padding: 0;
+    position: relative;
+    margin-bottom: 40px;
+}
+.exclusive-rewards .exclusive-rewards-header h2 {
+    font-family: "ExtraBold";
+    font-size: 60px;
+    color: #fff;
+    text-transform: uppercase;
+    background: #fff;
+    width: fit-content;
+    margin: 0 auto;
+    z-index: 1;
+    position: relative;
+    padding: 0 20px;
+    line-height: 100%;
+}
+.exclusive-rewards .exclusive-rewards-header .title-border-bottom {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    bottom: 50%;
+    border-bottom: 1px solid #30A46E;
+}
+.exclusive-rewards-slider .top-img {
+    overflow: hidden;
+}
+.exclusive-rewards-slider .top-img img {
+    scale: 1;
+    transition: scale 0.2s ease-in-out;
+}
+.exclusive-rewards-slider .exclusive-slide:hover .top-img img {
+    scale: 1.2;
+    transition: scale 0.2s ease-in-out;
+}
+.exclusive-rewards .exclusive-rewards-header h2 .text-1 {
+    color: #000;
+}
+.exclusive-rewards .exclusive-rewards-header h2 .text-2 {
+    color: #30A46E;
+}
+.exclusive-rewards-slider .content-1,
+.exclusive-rewards-slider .content-3 {
+    background-color: #30A46E;
+    padding: 20px;
+    height: 300px;
+}
+.exclusive-rewards-slider .content-2,
+.exclusive-rewards-slider .content-4 {
+    background-color: #FCCA46;
+    padding: 20px;
+    height: 300px;
+}
+.exclusive-rewards-slider h6 {
+    font-family: "SemiBold";
+    font-size: 28px;
+    line-height: 113%;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.exclusive-rewards-slider p {
+    font-size: 22px;
+    line-height: 30px;
+    color: #151716;
+}
+/* Annual event */
+.annual-event {
+    padding: 100px 0;
+    background-color: #000;
+}
+.annual-event .annual-event-header {
+    padding: 0;
+    position: relative;
+}
+.annual-event .annual-event-header h2 {
+    font-family: "ExtraBold";
+    font-size: 60px;
+    color: #fff;
+    text-transform: uppercase;
+    background: #000;
+    width: max-content;
+    margin: 0 auto;
+    z-index: 1;
+    position: relative;
+    padding: 0 20px;
+    line-height: 100%;
+    margin-bottom: 40px;
+}
+.annual-event .annual-event-header .title-border-bottom {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    bottom: 50%;
+    border-bottom: 1px solid #30A46E;
+}
+.annual-event .annual-event-header h2 .text-1 {
+    color: #fff;
+}
+.annual-event .annual-event-header h2 .text-2 {
+    color: #FCCA46;
+}
+.annual-event .sub-heading {
+    font-family: "Bold";
+    font-size: 33px;
+    line-height: 38px;
+    color: #fff;
+    text-align: center;
+    width: 73%;
+    margin: 10px auto 60px;
+}
+.annual-event .annual-event-content .top-img {
+    height: 100px;
+}
+.annual-event .annual-event-content h6 {
+    font-family: "ExtraBold";
+    font-size: 48px;
+    line-height: 100%;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 50px 0;
+    width: 85%;
+    transition: font-size 0.2s ease-in-out;
+}
+.annual-event .annual-event-content:hover h6 {
+    font-size: 50px;
+    transition: font-size 0.2s ease-in-out;
+}
+.annual-event .annual-event-content p {
+    width: 90%;
+    font-size: 22px;
+    line-height: 31px;
+    color: #fff;
+    text-transform: capitalize;
+}
+.annual-event .annual-event-content p span {
+    font-family: "Bold";
+}
+/* save spot */
+.save-spot {
+    overflow: hidden;
+}
+.save-spot .save-spot-left {
+    display: flex;
+    align-items: center;
+    background-color: #FCCA46;
+}
+.save-spot .save-spot-left h6 {
+    font-family: "SemiBold";
+    font-size: 33px;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+.save-spot .save-spot-left h5 {
+    font-family: "Bold";
+    font-size: 50px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.save-spot .save-spot-left p {
+    font-family: "Bold";
+    font-size: 33px;
+    line-height: 58px;
+    text-transform: uppercase;
+}
+.save-spot .save-spot-right img {
+    scale: 1;
+    transition: scale 0.2s ease-in-out;
+}
+.save-spot:hover .save-spot-right img {
+    scale: 1.2;
+    transition: scale 0.2s ease-in-out;
+}
+
+
+/* applies to small devices (landscape phones, less than 768px) */
+/* applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .top-slider .slider-images {
+        background-position: 80%;
+        height: calc(100vh - 143px);
+        background-repeat: no-repeat;
+    }
+    .top-slider .slider-images .slider-img-2 {
+        width: 300px;
+    }
+    .top-slider .slider-logo {
+        left: -16px;
+    }
+    .top-slider .slider-logo h3 {
+        font-size: 34px;
+        padding-left: 10px;
+        width: 336px;
+    }
+    .about-champions-league {
+        padding: 50px 0;
+    }
+    .about-champions-league .about-champions-league-content p {
+        font-size: 22px;
+        line-height: 130.5%;
+        margin: 0;
+    }
+    .how-to-qualify {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .champions-club-carousel .champions-club-carousel-header h2 {
+        font-size: 26px;
+        padding: 0 10px;
+    }
+    .champions-club-carousel-slider .qualify-container .count {
+        font-size: 24px;
+        padding: 12px 18px;
+        line-height: 20px;
+        box-shadow: 3px 3px 0px 3px #000;
+        width: 60px;
+        height: 48px;
+    }
+    .champions-club-carousel-slider .qualify-container:hover .count {
+        font-size: 24px;
+        width: 60px;
+        height: 48px;
+        box-shadow: 3px 3px 0px 3px #000;
+        left: 0;
+        top: -40px;
+    }
+    .champions-club-carousel-slider .qualify-container .qualify-desc {
+        padding: 35px 15px 15px 15px;
+        width: calc(100% - 20px);
+        top: -21px;
+        left: 20px;
+    }
+    .champions-club-carousel-slider .qualify-container h6 {
+        font-size: 20px;
+        line-height: 24px;
+        min-height: 48px;
+    }
+    .champions-club-carousel-slider .qualify-container:hover .qualify-desc h6 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .champions-club-carousel-slider .qualify-container p {
+        font-size: 16px;
+        line-height: 18px;
+        margin-bottom: 0;
+        margin-top: 10px;
+    }
+    .exclusive-rewards {
+        padding: 50px 0;
+    }
+    .exclusive-rewards .exclusive-rewards-header h2 {
+        font-size: 30px;
+        width: min-content;
+        padding: 0 10px;
+    }
+    .annual-event {
+        padding: 50px 0;
+    }
+    .annual-event .annual-event-header h2 {
+        font-size: 30px;
+        padding: 0 5px;
+        margin-bottom: 20px;
+    }
+    .annual-event .sub-heading {
+        font-size: 18px;
+        line-height: 24px;
+        width: 90%;
+        margin: 5px auto 30px;
+        font-family: 'Regular';
+    }
+    .annual-event-content {
+        margin-bottom: 25px;
+    }
+    .annual-event .annual-event-content .top-img {
+        height: auto;
+    }
+    .annual-event .annual-event-content .top-img img {
+        width: 60px;
+    }
+    .annual-event .annual-event-content h6 {
+        font-size: 20px;
+        margin: 15px 0;
+        width: 100%;
+    }
+    .annual-event .annual-event-content:hover h6 {
+        font-size: 20px;
+    }
+    .annual-event .annual-event-content p {
+        width: 100%;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .save-spot .save-spot-left .save-spot-left-content {
+        padding: 25px 0;
+    }
+    .save-spot .save-spot-left h6 {
+        font-size: 30px;
+    }
+    .save-spot .save-spot-left h5 {
+        font-size: 42px;
+        line-height: 42px;
+    }
+    .save-spot .save-spot-left p {
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    .save-spot {
+        padding-bottom: 50px;
+        background: #000;
+    }
+}
+
+/* Apply styles starting from medium devices and up to extra large devices */
+@media (min-width: 992px) and (max-width: 1399.98px) { 
+    .top-slider .slider-images .slider-img-2 {
+        width: 70%;
+    }
+    .top-slider .slider-logo h3 {
+        font-size: 45px;
+    }
+    .about-champions-league .about-champions-league-content p {
+        font-size: 24px;
+    }
+    .champions-club-carousel .champions-club-carousel-header h2 {
+        font-size: 50px;
+    }
+    .champions-club-carousel-slider .qualify-container {
+        max-width: 70%;
+    }
+    .champions-club-carousel-slider .qualify-container .qualify-desc {
+        padding: 40px 20px 40px 110px;
+    }
+    .champions-club-carousel-slider .qualify-container h6 {
+        font-size: 34px;
+    }
+    .champions-club-carousel-slider .qualify-container:hover .qualify-desc h6 {
+        font-size: 36px;
+    }
+    .champions-club-carousel-slider .qualify-container p {
+        font-size: 20px;
+    }
+    .champions-club-carousel-slider .qualify-container .count {
+        font-size: 66px;
+        padding: 15px 35px;
+    }
+    .exclusive-rewards .exclusive-rewards-header h2 {
+        font-size: 50px;
+    }
+    .exclusive-rewards-slider h6 {
+        font-size: 24px;
+    }
+    .exclusive-rewards-slider p {
+        font-size: 20px;
+    }
+    .annual-event .annual-event-header h2 {
+        font-size: 50px;
+    }
+    .annual-event .sub-heading {
+        font-size: 28px;
+        line-height: 38px;
+        margin: 10px auto 50px;
+    }
+    .annual-event .annual-event-content .top-img img {
+        height: 90px;
+    }
+    .annual-event .annual-event-content h6 {
+        font-size: 38px;
+    }
+    .annual-event .annual-event-content:hover h6 {
+        font-size: 40px;
+    }
+    .annual-event .annual-event-content h6 {
+        margin: 30px 0;
+    }
+    .annual-event .annual-event-content p {
+        font-size: 20px;
+    }
+    .save-spot-left-content {
+        width: 60%;
+    }
+    .save-spot .save-spot-left h6 {
+        font-size: 30px;
+    }
+    .save-spot .save-spot-left h5 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .save-spot .save-spot-left p {
+        font-size: 30px;
+        line-height: 38px;
+        text-transform: uppercase;
+    }
+}
+
+@media (max-width: 766.98px) { 
+    .exclusive-rewards-slider .slick-prev:before, 
+    .exclusive-rewards-slider .slick-next:before {
+        color: #000;
+    }
+    .champions-club-carousel-slider .qualify-container {
+        width: 100%;
+        margin-top: 50px !important;
+    }
+    .exclusive-rewards-slider .content-1, 
+    .exclusive-rewards-slider .content-3,
+    .exclusive-rewards-slider .content-2, 
+    .exclusive-rewards-slider .content-4 {
+        height: 250px;
+    }
+    .exclusive-rewards-slider {
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .exclusive-rewards-slider > div:hover .top-img img {
+        scale: 1;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .exclusive-rewards .exclusive-rewards-header h2 {
+        width: fit-content;
+        padding: 0 20px;
+    }
+    .exclusive-rewards-slider .content-1, 
+    .exclusive-rewards-slider .content-3,
+    .exclusive-rewards-slider .content-2, 
+    .exclusive-rewards-slider .content-4 {
+        padding: 10px;
+        height: 250px;
+    }
+    .exclusive-rewards-slider h6 {
+        font-size: 18px;
+        line-height: 113%;
+    }
+    .exclusive-rewards-slider p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .save-spot .save-spot-left h5 {
+        font-size: 33px;
+        line-height: 38px;
+    }
+    .save-spot .save-spot-left .save-spot-left-content {
+        padding: 12px 0;
+    }
+}

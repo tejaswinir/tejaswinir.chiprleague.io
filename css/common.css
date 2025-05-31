@@ -1,0 +1,573 @@
+@font-face {
+    font-family: 'Black';
+    src: url('../fonts/Kanit/Kanit-Black.ttf');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'BlackItalic';
+    src: url('../fonts/Kanit/Kanit-BlackItalic.ttf');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Bold';
+    src: url('../fonts/Kanit/Kanit-Bold.ttf');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'BoldItalic';
+    src: url('../fonts/Kanit/Kanit-BoldItalic.ttf');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'ExtraBold';
+    src: url('../fonts/Kanit/Kanit-ExtraBold.ttf');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'ExtraBoldItalic';
+    src: url('../fonts/Kanit/Kanit-ExtraBoldItalic.ttf');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'ExtraLight';
+    src: url('../fonts/Kanit/Kanit-ExtraLight.ttf');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'ExtraLightItalic';
+    src: url('../fonts/Kanit/Kanit-LightItalic.ttf');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Italic';
+    src: url('../fonts/Kanit/Kanit-Italic.ttf');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Light';
+    src: url('../fonts/Kanit/Kanit-Light.ttf');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'LightItalic';
+    src: url('../fonts/Kanit/Kanit-LightItalic.ttf');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Medium';
+    src: url('../fonts/Kanit/Kanit-Medium.ttf');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'MediumItalic';
+    src: url('../fonts/Kanit/Kanit-MediumItalic.ttf');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Regular';
+    src: url('../fonts/Kanit/Kanit-Regular.ttf');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SemiBold';
+    src: url('../fonts/Kanit/Kanit-SemiBold.ttf');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SemiBoldItalic';
+    src: url('../fonts/Kanit/Kanit-SemiBoldItalic.ttf');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Thin';
+    src: url('../fonts/Kanit/Kanit-Thin.ttf');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'ThinItalic';
+    src: url('../fonts/Kanit/Kanit-ThinItalic.ttf');
+    font-display: swap;
+}
+body {
+    font-family: "Regular";
+    font-size: 2vw; /* 2% of the viewport width */
+    background: #000;
+}
+#header nav {
+    height: 112px;
+    transition: all 300ms ease-in-out;
+}
+#header nav, #footer{
+    background-color: #000 !important;
+}
+#header .nav-item .nav-link {
+    font-family: "Black";
+    font-size: 17px;
+    line-height: 135%;
+    transition: all 300ms ease-in-out;
+}
+#navbarSupportedContent .navbar-nav {
+    gap: 35px;
+    transition: all 300ms ease-in-out;
+}
+.navbar-brand {
+    width: 90px;
+    margin-right: 35px;
+    background: url(../images/header/logo.svg) no-repeat;
+    background-size: 100%;
+    height: 69px;
+    transition: all 300ms ease-in-out;
+}
+.navbar-brand:hover {
+    background: url("../images/header/logo-hover.svg") no-repeat;
+    background-size: 100%;
+    transition: all 300ms ease-in-out;
+}
+.navbar > .container-fluid {
+    transition: all 300ms ease-in-out;
+}
+.scroll-down-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    bottom: 20px;
+    cursor: pointer;
+}
+.scroll-down-arrow {
+    width: 15px;
+    height: 15px;
+    border-left: 2px solid #fff;
+    border-right: none;
+    border-top: none;
+    border-bottom: 2px solid #fff;
+    right: 0;
+    top: 0;
+    transform: rotate(-45deg);
+    margin-top: -10px;
+    transition: all 0.5s ease;
+}
+.scroll-down-arrow:nth-child(2) {
+    opacity: 0;
+}
+.scroll-down-container:hover .scroll-down-arrow {
+    margin-top: -5px;
+}
+.scroll-down-container:hover .scroll-down-arrow:first-child {
+    opacity: 0.5;
+}
+.scroll-down-container:hover .scroll-down-arrow:nth-child(2) {
+    opacity: 0.75;
+}
+.scroll-down-container:hover .scroll-down-arrow:nth-child(3) {
+    opacity: 1;
+}
+#footer > div {
+    padding-top: 80px;
+    background: #000;
+}
+#footer {
+    padding-bottom: 20px;
+}
+.nav-link {
+    color: #fff;
+}
+header#header {
+    margin-bottom: 110px;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+    color: #3AA7CB;
+}
+.nut .nut-border {
+    width: 87px;
+    height: 25px;
+    display: flex;
+    margin-top: 8px;
+}
+.nut-white .nut-border {
+    border: 1px solid #fff;
+}
+.nut-cream .nut-border {
+    border: 1px solid #F29DAA;
+    background-color: #F29DAA;
+}
+.nut-blue .nut-border {
+    border: 1px solid #3AA8CC;
+    background-color: #3AA8CC;
+}
+.nut-green .nut-border {
+    border: 1px solid #30A56E;
+    background-color: #30A56E;
+}
+.nut-yellow .nut-border {
+    border: 1px solid #E5B52E;
+    background-color: #E5B52E;
+}
+.nut-brown .nut-border {
+    border: 1px solid #55281A;
+    background-color: #55281A;
+}
+.nut-orange .nut-border {
+    border: 1px solid #EC5D25;
+    background-color: #EC5D25;
+}
+.nut-white-2 .nut-border {
+    border: 1px solid #fff;
+    background-color: #fff;
+}
+.nut {
+    position: relative;
+}
+.nut img {
+    height: 59px;
+    margin: 0 auto;
+    text-align: center;
+    left: 0;
+    right: 0;
+}
+#footer:hover .nut1 img {
+    animation: nut1 0.5s ease forwards;
+}
+@keyframes nut1 {
+    0% { transform: translateY(0); } /* Start */
+    30% { transform: translateY(-40px); } /* Move up */
+    60% { transform: translateY(-20px); } /* Come back */
+    100% { transform: translateY(-30px); } /* Move up again */
+}
+#footer:hover .nut2 img {
+    animation: nut2 0.5s ease forwards;
+}
+@keyframes nut2 {
+    0% { transform: translateY(0); } /* Start */
+    30% { transform: translateY(-80px); } /* Move up */
+    60% { transform: translateY(-60px); } /* Come back */
+    100% { transform: translateY(-70px); } /* Move up again */
+}
+#footer:hover .nut3 img {
+    animation: nut3 0.5s ease forwards;
+}
+@keyframes nut3 {
+    0% { transform: translateY(0); } /* Start */
+    30% { transform: translateY(-120px); } /* Move up */
+    60% { transform: translateY(-80px); } /* Come back */
+    100% { transform: translateY(-90px); } /* Move up again */
+}
+#footer:hover .nut4 img {
+    animation: nut4 0.5s ease forwards;
+}
+@keyframes nut4 {
+    0% { transform: translateY(0); } /* Start */
+    30% { transform: translateY(-70px); } /* Move up */
+    60% { transform: translateY(-50px); } /* Come back */
+    100% { transform: translateY(-60px); } /* Move up again */
+}
+#footer:hover .nut5 img {
+    animation: nut5 0.5s ease forwards;
+}
+@keyframes nut5 {
+    0% { transform: translateY(0); } /* Start */
+    30% { transform: translateY(-20px); } /* Move up */
+    60% { transform: translateY(-10px); } /* Come back */
+    100% { transform: translateY(-5px); } /* Move up again */
+}
+#footer:hover .nut6 img {
+    animation: nut6 0.5s ease forwards;
+}
+@keyframes nut6 {
+    0% { transform: translateY(0); } /* Start */
+    30% { transform: translateY(-30px); } /* Move up */
+    60% { transform: translateY(-20px); } /* Come back */
+    100% { transform: translateY(-30px); } /* Move up again */
+}
+#footer:hover .nut7 img {
+    animation: nut7 0.5s ease forwards;
+}
+@keyframes nut7 {
+    0% { transform: translateY(0); } /* Start */
+    30% { transform: translateY(-50px); } /* Move up */
+    60% { transform: translateY(-40px); } /* Come back */
+    100% { transform: translateY(-50px); } /* Move up again */
+}
+.nut .nut-border {
+    width: 87px;
+    height: 25px;
+    display: block;
+    margin-top: 8px;
+    position: relative;
+}
+
+.marquee-container {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    display: flex;
+    position: relative;
+    background-color: #3AA8CC;
+    font-family: "Black";
+    line-height: 84.5%;
+    text-transform: uppercase;
+    text-shadow: 1px solid #fff;
+    -webkit-text-stroke: 1px #fff;
+    -webkit-text-fill-color: transparent;
+    height: 95px;
+    padding: 20px;
+    display: block;
+}
+
+.marquee-content {
+    display: flex;
+    gap: 15px; /* Adjust spacing */
+    min-width: 100%;
+    animation: marquee 8s linear infinite;
+}
+  
+@keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-100%); } /* Moves only half so the second copy continues smoothly */
+}
+@media (min-width: 992px) {
+    .marquee-container {
+        font-size: 66px;
+    }
+}
+.overlay {
+    background: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+.mx-common {
+    margin: 0 180px;
+}
+.px-common {
+    padding: 0 180px;
+}
+.ps-common {
+    padding-left: 180px;
+}
+.pe-common {
+    padding-right: 180px;
+}
+.pxe-common {
+    padding-bottom: 100px !important;
+}
+
+/* Modal */
+.modal-dialog .modal-content {
+    background: #000;
+}
+.modal-dialog .modal-header {
+    border: 0;
+}
+.modal-dialog .btn-close-custom {
+    height: 20px;
+    width: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 8px;
+    right: 15px;
+    background: none;
+    border: none;
+    padding: 0;
+}
+.modal-dialog .btn-close-custom::before,
+.modal-dialog .btn-close-custom::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+}
+.modal-dialog .btn-close-custom::before {
+    transform: rotate(45deg);
+}
+.modal-dialog .btn-close-custom::after {
+    transform: rotate(-45deg);
+}
+.modal-dialog .modal-body iframe {
+    width: 100%;
+    height: 450px;
+}
+
+/* applies to small devices (landscape phones, less than 768px) */
+/* applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    #navbarSupportedContent .navbar-nav {
+        gap: 10px;
+    }
+    .navbar-collapse {
+        margin: 10px 5px 25px;
+    }
+    #header .nav-item .nav-link {
+        font-family: "Regular";
+        font-size: 16px;
+    }
+    #header .nav-item .nav-link.active {
+        font-family: "Medium";
+        font-size: 18px;
+    }
+    .mx-common {
+        margin: 0 50px;
+    }
+    .px-common {
+        padding: 0 50px;
+    }
+    .ps-common {
+        padding-left: 50px;
+    }
+    .pe-common {
+        padding-right: 50px;
+    }
+    .pxe-common {
+        padding-bottom: 50px !important;
+    }
+    .navbar-brand {
+        width: 48px;
+        height: 37px;
+    }
+    #header nav {
+        height: 80px;
+    }
+    header#header {
+        margin-bottom: 80px;
+    }
+    .top-slider .slider-images .overlay {
+        padding: 25px 0;
+    }
+    .marquee-container {
+        font-size: 46px;
+        height: 63px;
+        padding: 11px;
+    }
+    .marquee-content {
+        animation: marquee 2s linear infinite;
+    }
+    #footer {
+        padding-bottom: 10px;
+    }
+    #footer > div {
+        padding-top: 30px;
+    }
+    .nut .nut-border {
+        width: 39px;
+        height: 11px;
+    }
+    .nut img {
+        width: 23px;
+        height: 27px;
+    }
+    @keyframes nut1 {
+        0% { transform: translateY(0); } /* Start */
+        30% { transform: translateY(0); } /* Move up */
+        60% { transform: translateY(0); } /* Come back */
+        100% { transform: translateY(0); } /* Move up again */
+    }
+    @keyframes nut2 {
+        0% { transform: translateY(0); } /* Start */
+        30% { transform: translateY(0); } /* Move up */
+        60% { transform: translateY(0); } /* Come back */
+        100% { transform: translateY(0); } /* Move up again */
+    }
+    @keyframes nut3 {
+        0% { transform: translateY(0); } /* Start */
+        30% { transform: translateY(0); } /* Move up */
+        60% { transform: translateY(0); } /* Come back */
+        100% { transform: translateY(0); } /* Move up again */
+    }
+    @keyframes nut4 {
+        0% { transform: translateY(0); } /* Start */
+        30% { transform: translateY(0); } /* Move up */
+        60% { transform: translateY(0); } /* Come back */
+        100% { transform: translateY(0); } /* Move up again */
+    }
+    @keyframes nut5 {
+        0% { transform: translateY(0); } /* Start */
+        30% { transform: translateY(0); } /* Move up */
+        60% { transform: translateY(0); } /* Come back */
+        100% { transform: translateY(0); } /* Move up again */
+    }
+    @keyframes nut6 {
+        0% { transform: translateY(0); } /* Start */
+        30% { transform: translateY(0); } /* Move up */
+        60% { transform: translateY(0); } /* Come back */
+        100% { transform: translateY(0); } /* Move up again */
+    }
+    @keyframes nut7 {
+        0% { transform: translateY(0); } /* Start */
+        30% { transform: translateY(0); } /* Move up */
+        60% { transform: translateY(0); } /* Come back */
+        100% { transform: translateY(0); } /* Move up again */
+    }
+    .modal-dialog .modal-body iframe {
+        width: 100%;
+        height: 315px;
+    }
+}
+
+/* Apply styles starting from medium devices and up to extra large devices */
+@media (min-width: 992px) and (max-width: 1399.98px) {
+    .mx-common {
+        margin: 0 60px;
+    }
+    .px-common {
+        padding: 0 60px;
+    }
+    .ps-common {
+        padding-left: 60px;
+    }
+    .pe-common {
+        padding-right: 60px;
+    }
+    /* Default navbar styling */
+    #header nav.shrink {
+        height: 72px;
+    }
+    .navbar {
+        transition: all 0.2s ease-in-out;
+    }
+    .navbar.shrink .navbar-brand {
+        scale: 0.9;
+    }
+    .navbar #navbarSupportedContent .navbar-nav {
+        gap: 18px;
+    }
+    .navbar.shrink #navbarSupportedContent .navbar-nav {
+        gap: 16px;
+    }
+    #header .nav-item .nav-link {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1400px) {
+    /* Default navbar styling */
+    #header nav.shrink {
+        height: 72px;
+    }
+    .navbar {
+        transition: all 0.2s ease-in-out;
+    }
+    .navbar.shrink .navbar-brand {
+        scale: 0.9;
+    }
+    .navbar.shrink #navbarSupportedContent .navbar-nav {
+        gap: 25px;
+    }
+    #header nav.shrink a.nav-link {
+        font-size: 16px;
+        padding: 10px;
+    }
+}
+    

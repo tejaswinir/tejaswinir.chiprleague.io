@@ -1,0 +1,56 @@
+<nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid align-items-end px-5">
+        <a class="navbar-brand" href="./">
+            <img src="./images/header/logo.svg" alt="Chipr" width="auto" height="85">
+            </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link text-uppercase season" aria-current="page" href="./season-in-spotlight.html">Season in spotlight</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-uppercase epic" href="./epic-seasons.html">epic seasons</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-uppercase champions" href="./champions-club.html">champions club</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-uppercase league" href="./league-swag.html">league swag</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-uppercase forge" href="./the-forge.html">the forge</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-uppercase faqs" href="./faqs.html">faqs</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<script type="text/javascript">
+     // active page
+     $('.nav-item .mav-link').removeClass('active')
+    setTimeout(() => {
+        if(document.activePage == 'season') {
+            $('.nav-item .season').addClass('active')
+        }
+        if(document.activePage == 'epic') {
+            $('.nav-item .epic').addClass('active')
+        }
+        if(document.activePage == 'champions') {
+            $('.nav-item .champions').addClass('active')
+        }
+        if(document.activePage == 'league') {
+            $('.nav-item .league').addClass('active')
+        }
+        if(document.activePage == 'forge') {
+            $('.nav-item .forge').addClass('active')
+        }
+        if(document.activePage == 'faqs') {
+            $('.nav-item .faqs').addClass('active')
+        }
+    }, 100);
+</script>

@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /private/
+
+# Allow everything else
+Allow: /
+
+# Sitemap
+Sitemap: https://www.league.chipr.com/sitemap.xml

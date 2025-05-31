@@ -1,0 +1,449 @@
+/* top slider */
+.top-slider .slider-images {
+    width: 100%;
+    position: relative;
+}
+.top-slider .slider-text {
+    position: absolute;
+    bottom: 20%;
+    max-width: 100%;
+    z-index: 1;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+.top-slider .slider-text p {
+    margin: 0;
+    line-height: 94%;
+    color: #fff;
+}
+.top-slider .slider-text .text-2 {
+    font-family: "Black";
+    color: #30A46E;
+}
+/* seasons */
+.league-swag-seasons {
+    padding: 100px 0;
+    background: #000;
+}
+.seasons-details-tabs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.seasons-details-tabs .season-tab {
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+}
+.seasons-details-tabs .season-tab {
+    border: 1px solid #F29DAA;
+    height: 96px;
+}
+.seasons-details-tabs .season-tab.summer-tab {
+    border: 5px solid #30A56E;
+}
+.seasons-details-tabs .season-tab.fall-tab {
+    border: 1px solid #55281A;
+}
+.seasons-details-tabs .season-tab.winter-tab {
+    border: 1px solid #fff;
+}
+.seasons-details .seasons-details-col {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+.seasons-details .seasons-details-col .base-league-content,
+.seasons-details .seasons-details-col .advanced-league-content,
+.seasons-details .seasons-details-col .pro-league-content,
+.seasons-details .seasons-details-col .premier-league-content {
+    padding: 30px 8%;
+}
+.seasons-details .seasons-details-col h6 {
+    font-family: "Bold";
+    font-size: 33px;
+    color: #30A46E;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    margin: 100px auto 40px;
+    line-height: 84%;
+    min-height: 60px;
+}
+.seasons-details-col .season-detail-col {
+    position: relative;
+    background: rgba(217, 217, 217, 1);
+    color: #fff;
+    height: 100%;
+}
+.seasons-details-col .season-detail-col.base-league {
+    background: rgba(217, 217, 217, 0.05);
+}
+
+.seasons-details-col .season-detail-col.advanced-league {
+    background: rgba(217, 217, 217, 0.10);
+}
+.seasons-details-col .season-detail-col.pro-league {
+    background: rgba(217, 217, 217, 0.20);
+}
+.seasons-details-col .season-detail-col.premier-league {
+    background: rgba(217, 217, 217, 0.25);
+}
+.seasons-details-col .top-image {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: -130px;
+    width: 100%;
+    transition: all 0.5s ease;
+}
+.seasons-details-col .top-image img {
+    width: 216px;
+    transition: all 0.5s ease;
+}
+.seasons-details-col .season-detail-col .cta-style {
+    background: #30A46E;
+    min-height: 42px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    padding: 4px;
+    line-height: 24px;
+    align-items: center;
+}
+.seasons-details-col .season-detail-col .cta-style.transparent-bg { 
+    font-family: "Medium";
+    background: transparent;
+    border: 2px solid #30A46E;
+}
+.seasons-details-col .season-detail-col .plus-style {
+    font-size: 33px;
+    line-height: 20px;
+}
+.seasons-details-col .season-detail-col .season-points {
+    margin-top: 5px;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.seasons-details-col .season-detail-col .season-points div {
+    font-family: "Light";
+    font-size: 36px;
+    color: #fff;
+    line-height: 35px;
+}
+.seasons-details-col .season-detail-col .season-points div span {
+    font-size: 23px;
+}
+.seasons-details-col .season-detail-col .season-points .d2d,
+.seasons-details-col .season-detail-col .season-points .mdu {
+    font-family: "Bold";
+    font-size: 33px;
+    color: #3AA8CC;
+    margin-bottom: 19px;
+}
+.seasons-details-col .season-detail-col .season-points .mdu {
+    color: #FCCA46;
+}
+.seasons-details-col .season-detail-col .season-detail-col-content .details .offers {
+    height: 235px;
+}
+.seasons-details-col .season-detail-col .season-detail-col-content .hover-details {
+    display: none;
+}
+/* certificate */
+.earn-certificate {
+    padding: 0 0 100px;
+    background-color: #000;
+}
+.earn-certificate h4,
+.earn-certificate p {
+    font-size: 33px;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 28px;
+}
+.earn-certificate p {
+    font-family: "Black";
+    color: #30A46E;
+}
+.earn-certificate .earn-certificate-content {
+    justify-content: center;
+    gap: 30px;
+}
+/* visit now */
+.visit-now {
+    overflow: hidden;
+    background-color: #30A46E;
+}
+.visit-now .visit-now-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.visit-now .visit-now-left h6 {
+    font-family: "ExtraBold";
+    font-size: 42px;
+    text-transform: uppercase;
+    line-height: 58px;
+    text-shadow: 1px solid #fff;
+    -webkit-text-stroke: 1px #fff;
+    -webkit-text-fill-color: transparent;
+}
+.visit-now .visit-now-left h5 {
+    font-family: "ExtraBold";
+    font-size: 58px;
+    line-height: 58px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.visit-now .visit-now-left h5 span {
+    color: #000;
+}
+.visit-now .visit-now-left p {
+    font-size: 32px;
+    line-height: 118%;
+    color: #000;
+}
+.visit-now .visit-now-left p span {
+    font-family: "SemiBold";
+}
+.visit-now-left-content .visit-shop {
+    font-size: 21px;
+    background: #FCCA46;
+    border-radius: 15px;
+    color: #000;
+    text-decoration: none;
+    padding: 12px 35px;
+}
+.visit-now-left-content .visit-shop:hover {
+    color: #000;
+    background: #fff;
+}
+.visit-now-right img {
+    scale: 1;
+    transition: all 0.5s ease;
+}
+.visit-now:hover .visit-now-right img {
+    scale: 1.1;
+}
+
+/* applies to small devices (landscape phones, less than 768px) */
+/* applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .top-slider .slider-images .overlay {
+        background: rgba(0, 0, 0, 0.2);
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        position: absolute;
+    }
+    .top-slider .slider-text {
+        font-size: 36px;
+    }
+    .league-swag-seasons {
+        padding: 50px 0;
+    }
+    .seasons-details-tabs {
+        flex-wrap: wrap;
+    }
+    .seasons-details-tabs .season-tab {
+        height: 60px;
+        padding: 10px;
+        justify-content: center;
+        flex: 48%;
+    }
+    .seasons-details-tabs .season-tab:not(.active) {
+        border: none;
+        opacity: 0.5;
+    }
+    .seasons-details-tabs .season-tab img {
+        max-width: 75%;
+    }
+    .seasons-details-tabs .season-tab.active img {
+        max-width: 100%;
+    }
+    .seasons-details-tabs .season-tab.fall-tab img {
+        width: 50%;
+    }
+    .seasons-details-col .top-image {
+        position: static;
+    }
+    .seasons-details-col .top-image img {
+        margin: 0 auto;
+        width: 125px;
+    }
+    .seasons-details .seasons-details-col .base-league-content, 
+    .seasons-details .seasons-details-col .advanced-league-content, 
+    .seasons-details .seasons-details-col .pro-league-content, 
+    .seasons-details .seasons-details-col .premier-league-content {
+        padding: 15px 10px;
+    }
+    .seasons-details .seasons-details-col {
+        max-width: 375px;
+        margin: 50px auto;
+    }
+    .seasons-details .seasons-details-col .season-detail-col {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 18%, rgba(217, 217, 217, 0.1) 18%);
+    }
+    .seasons-details .seasons-details-col h6 {
+        margin: 0px auto 40px;
+        width: 76%;
+    }
+    .seasons-details-col .season-detail-col .season-detail-col-content .details .offers {
+        height: 146px;
+    }   
+    .seasons-details-col .season-detail-col .cta-style {
+        min-height: auto;
+        font-size: 18px;
+        padding: 8px;
+        line-height: 18px;
+    } 
+    .earn-certificate {
+        padding: 0 0 50px;
+    }
+    .seasons-details-col .season-detail-col .season-points {
+        margin-top: 40px;
+    }
+    .seasons-details-col .season-detail-col .season-points .d2d, 
+    .seasons-details-col .season-detail-col .season-points .mdu {
+        font-size: 28px;
+    }
+    .seasons-details-col .season-detail-col .season-points div {
+        font-family: "Light";
+        font-size: 30px;
+        color: #fff;
+        line-height: 35px;
+    }
+    .earn-certificate .earn-certificate-content img {
+        width: 55px;
+    }
+    .earn-certificate .earn-certificate-content h4,
+    .earn-certificate .earn-certificate-content p {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .visit-now .visit-now-left h6 {
+        font-size: 34px;
+        line-height: 58px;
+    }
+    .visit-now .visit-now-left h5 {
+        font-size: 38px;
+        line-height: 38px;
+    }
+    .visit-now .visit-now-left p {
+        font-size: 18px;
+        line-height: 118%;
+        margin-bottom: 30px;
+    }
+    .visit-now:hover .visit-now-right img {
+        scale: 1;
+    }
+}
+
+/* Apply styles starting from medium devices and up to extra large devices */
+@media (min-width: 992px) and (max-width: 1399.98px) {
+    .top-slider .slider-text {
+        font-size: 40px;
+    } 
+    /* visit show */
+    .visit-now .visit-now-left h6 {
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .visit-now .visit-now-left h5 {
+        font-size: 38px;
+        line-height: 38px;
+    }
+    .visit-now .visit-now-left p {
+        font-size: 22px;
+    }
+    .visit-now-left-content .visit-shop {
+        font-size: 18px;
+        padding: 8px 35px;
+    }
+    .seasons-details-tabs .season-tab {
+        height: 72px;
+    }
+    .seasons-details-tabs .season-tab {
+        padding: 16px 16px;
+        justify-content: center;
+    }
+    .seasons-details-tabs .season-tab img {
+        width: 75%;
+    }
+    .seasons-details-col .top-image {
+        top: -90px;
+    }
+    .seasons-details-col .top-image img {
+        width: 165px;
+    }
+    .seasons-details-col .season-detail-col:hover .top-image {
+        top: -130px;
+    }
+    .seasons-details-col .season-detail-col:hover .top-image img {
+        width: 130px;
+    }
+    .seasons-details .seasons-details-col h6 {
+        font-size: 28px;
+        margin: 75px auto 30px;
+    }
+    .seasons-details-col .season-detail-col .cta-style {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .seasons-details-col .season-detail-col .season-points .d2d,
+    .seasons-details-col .season-detail-col .season-points .mdu {
+        font-size: 30px;
+        margin-bottom: 19px;
+    }
+    .seasons-details-col .season-detail-col .season-points div {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .seasons-details-col .season-detail-col .season-points div span {
+        font-size: 18px;
+    }
+    .seasons-details-col .season-detail-col .hover-details .hover-text {
+        font-size: 28px;
+        padding: 10% 2%;
+    }
+}
+@media (min-width: 992px) {
+    .seasons-details-col .season-detail-col:hover {
+        background: none;
+    }
+    .seasons-details .seasons-details-col .season-detail-col:hover .base-league-content,
+    .seasons-details .seasons-details-col .season-detail-col:hover  .advanced-league-content,
+    .seasons-details .seasons-details-col .season-detail-col:hover  .pro-league-content,
+    .seasons-details .seasons-details-col .season-detail-col:hover  .premier-league-content {
+        padding: 0;
+    }
+    .seasons-details-col .season-detail-col:hover .season-detail-col-content .details {
+        display: none;
+    }
+    .seasons-details-col .season-detail-col:hover .season-detail-col-content .hover-details {
+        display: block;
+    } 
+    .seasons-details .seasons-details-col:hover .base-league-content:hover {
+        padding: 0;
+    }
+
+    .seasons-details-col .season-detail-col:hover .top-image{
+        top: -160px;
+    }
+    .seasons-details-col .season-detail-col:hover .top-image img{
+        width: 160px;
+    }
+    .seasons-details-col .season-detail-col .hover-details .hover-text {
+        font-size: 33px;
+        line-height: 96%;
+        font-family: "Bold";
+        margin: 10px auto 30px;
+        text-transform: uppercase;
+    }
+}
