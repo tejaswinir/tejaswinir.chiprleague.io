@@ -321,8 +321,9 @@ marquee {
     }
     .impact{
         background-position: center ;
-        padding-top: 20px;
+       padding: 30px 0;
         position: relative;
+        background-image: url(../images/season-in-spotlight/impact-mobile-bg.jpg);
     }
     .impact::before{
         content: '';
