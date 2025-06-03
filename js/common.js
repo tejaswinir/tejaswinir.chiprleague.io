@@ -32,6 +32,9 @@ $(function(){
         if(document.activePage == 'forge') {
             $('.nav-item .forge').addClass('active')
         }
+        if(document.activePage == 'leaguelore') {
+            $('.nav-item .leaguelore').addClass('active')
+        }
         if(document.activePage == 'faqs') {
             $('.nav-item .faqs').addClass('active')
         }
