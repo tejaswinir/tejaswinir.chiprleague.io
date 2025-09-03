@@ -27,7 +27,7 @@
 }
 .about-champions-league .about-champions-league-content {
     font-family: "SemiBold";
-    background-color: #30A46E;
+    background-color: #EC5E25;
     position: relative;
     color: #000;
     padding: 10%;
@@ -35,10 +35,10 @@
     height: 100%;
 }
 .about-champions-league .about-champions-league-content:hover {
-    background-color: #FCCA46;
+    background-color: #FFF;
 }
 .about-champions-league .about-champions-league-content span {
-    color: #fff;
+    color: #C5D92D;
 }
 .about-champions-league .about-champions-league-content p {
     font-size: 33px;
@@ -80,14 +80,14 @@
     right: 0;
     width: 100%;
     bottom: 50%;
-    border-bottom: 1px solid #30A46E;
+    border-bottom: 1px solid #EC5E25;
 }
 .how-to-qualify {
     background: #000;
     padding-bottom: 50px;
 }
 .champions-club-carousel .champions-club-carousel-header h2 .text-2 {
-    color: #FCCA46;
+    color: #EC5E25;
 }
 .champions-club-carousel .carousel > div {
     margin: -50px 0;
@@ -111,7 +111,7 @@
     margin-top: 50px;
 }
 .champions-club-carousel-slider .qualify-container .count {
-    background: #30A46E;
+    background: #EC5E25;
     font-family: "ExtraBold";
     font-size: 76px;
     -webkit-text-stroke: 1px #fff;
@@ -146,7 +146,7 @@
     left: 40px;
 }
 .champions-club-carousel-slider .qualify-container h6 {
-    color: #30A46E;
+    color: #EC5E25;
     font-family: "Bold";
     font-size: 38px;
     line-height: 34px;
@@ -165,29 +165,29 @@
     margin-top: 100px;
 }
 .champions-club-carousel-slider .qualify-container.qualify-2 .count {
-    background: #FCCA46;
+    background: #3C797E;
 }
 .champions-club-carousel-slider .qualify-container.qualify-2 h6 {
-    color: #FCCA46;
+    color: #3C797E;
 }
 .champions-club-carousel-slider .qualify-container.qualify-3 {
     margin-left: auto;
     margin-top: 100px;
 }
 .champions-club-carousel-slider .qualify-container.qualify-3 .count {
-    background: #252422;
+    background: #C5D92D;
 }
 .champions-club-carousel-slider .qualify-container.qualify-3 h6 {
-    color: #252422;
+    color: #C5D92D;
 }
 .champions-club-carousel-slider .qualify-container.qualify-1:hover .qualify-desc {
-    background: #30A46E;
+    background: #EC5E25;
 }
 .champions-club-carousel-slider .qualify-container.qualify-2:hover .qualify-desc {
-    background: #FCCA46;
+    background: #3C797E;
 }
 .champions-club-carousel-slider .qualify-container.qualify-3:hover .qualify-desc {
-    background: #252422;
+    background: #C5D92D;
 }
 .champions-club-carousel-slider .qualify-container:hover .qualify-desc h6 { 
     color: #fff;
@@ -226,7 +226,7 @@
     right: 0;
     width: 100%;
     bottom: 50%;
-    border-bottom: 1px solid #30A46E;
+    border-bottom: 1px solid #EC5E25;
 }
 .exclusive-rewards-slider .top-img {
     overflow: hidden;
@@ -243,17 +243,17 @@
     color: #000;
 }
 .exclusive-rewards .exclusive-rewards-header h2 .text-2 {
-    color: #30A46E;
+    color: #EC5E25;
 }
 .exclusive-rewards-slider .content-1,
 .exclusive-rewards-slider .content-3 {
-    background-color: #30A46E;
+    background-color: #EC5E25;
     padding: 20px;
     height: 300px;
 }
 .exclusive-rewards-slider .content-2,
 .exclusive-rewards-slider .content-4 {
-    background-color: #FCCA46;
+    background-color: #C5D92D;
     padding: 20px;
     height: 300px;
 }
@@ -299,13 +299,13 @@
     right: 0;
     width: 100%;
     bottom: 50%;
-    border-bottom: 1px solid #30A46E;
+    border-bottom: 1px solid #EC5E25;
 }
 .annual-event .annual-event-header h2 .text-1 {
     color: #fff;
 }
 .annual-event .annual-event-header h2 .text-2 {
-    color: #FCCA46;
+    color: #EC5E25;
 }
 .annual-event .sub-heading {
     font-family: "Bold";
@@ -350,7 +350,7 @@
 .save-spot .save-spot-left {
     display: flex;
     align-items: center;
-    background-color: #FCCA46;
+    background-color: #EC5E25;
 }
 .save-spot .save-spot-left h6 {
     font-family: "SemiBold";
@@ -370,6 +370,7 @@
     font-size: 33px;
     line-height: 58px;
     text-transform: uppercase;
+    color: #C5D92D;
 }
 .save-spot .save-spot-right img {
     scale: 1;

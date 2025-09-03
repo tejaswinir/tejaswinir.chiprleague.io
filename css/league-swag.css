@@ -18,7 +18,7 @@
 }
 .top-slider .slider-text .text-2 {
     font-family: "Black";
-    color: #30A46E;
+    color: #EC5E25;
 }
 /* seasons */
 .league-swag-seasons {
@@ -41,10 +41,10 @@
     height: 96px;
 }
 .seasons-details-tabs .season-tab.summer-tab {
-    border: 5px solid #30A56E;
+    border: 1px solid #30A56E;
 }
 .seasons-details-tabs .season-tab.fall-tab {
-    border: 1px solid #55281A;
+    border: 5px solid #EC5E25;
 }
 .seasons-details-tabs .season-tab.winter-tab {
     border: 1px solid #fff;
@@ -63,7 +63,7 @@
 .seasons-details .seasons-details-col h6 {
     font-family: "Bold";
     font-size: 33px;
-    color: #30A46E;
+    color: #EC5E25;
     text-transform: uppercase;
     text-align: center;
     width: 100%;
@@ -104,7 +104,7 @@
     transition: all 0.5s ease;
 }
 .seasons-details-col .season-detail-col .cta-style {
-    background: #30A46E;
+    background: #EC5E25;
     min-height: 42px;
     width: 100%;
     display: flex;
@@ -117,7 +117,7 @@
 .seasons-details-col .season-detail-col .cta-style.transparent-bg { 
     font-family: "Medium";
     background: transparent;
-    border: 2px solid #30A46E;
+    border: 2px solid #EC5E25;
 }
 .seasons-details-col .season-detail-col .plus-style {
     font-size: 33px;
@@ -142,11 +142,11 @@
 .seasons-details-col .season-detail-col .season-points .mdu {
     font-family: "Bold";
     font-size: 33px;
-    color: #30A46E;
+    color: #EC5E25;
     margin-bottom: 19px;
 }
 .seasons-details-col .season-detail-col .season-points .mdu {
-    color: #FCCA46;
+    color: #FFF;
 }
 .seasons-details-col .season-detail-col .season-detail-col-content .details .offers {
     height: 235px;
@@ -168,7 +168,7 @@
 }
 .earn-certificate p {
     font-family: "Black";
-    color: #30A46E;
+    color: #C5D92D;
 }
 .earn-certificate .earn-certificate-content {
     justify-content: center;
@@ -177,7 +177,7 @@
 /* visit now */
 .visit-now {
     overflow: hidden;
-    background-color: #30A46E;
+    background-color: #EC5E25;
 }
 .visit-now .visit-now-left {
     display: flex;
@@ -189,8 +189,8 @@
     font-size: 42px;
     text-transform: uppercase;
     line-height: 58px;
-    text-shadow: 1px solid #fff;
-    -webkit-text-stroke: 1px #fff;
+    text-shadow: 1px solid #000;
+    -webkit-text-stroke: 1px #000;
     -webkit-text-fill-color: transparent;
 }
 .visit-now .visit-now-left h5 {
@@ -198,10 +198,10 @@
     font-size: 58px;
     line-height: 58px;
     text-transform: uppercase;
-    color: #fff;
+    color: #C5D92D;
 }
 .visit-now .visit-now-left h5 span {
-    color: #000;
+    color: #FFF;
 }
 .visit-now .visit-now-left p {
     font-size: 32px;
@@ -213,7 +213,7 @@
 }
 .visit-now-left-content .visit-shop {
     font-size: 21px;
-    background: #FCCA46;
+    background: #FFF;
     border-radius: 15px;
     color: #000;
     text-decoration: none;

@@ -11,7 +11,7 @@ $(document).ready(function(){
         dots: true,
         dotsClass: 'slick-dots',
         arrows: false,
-        initialSlide: 1
+        initialSlide: 2
     });
   
 

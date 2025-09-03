@@ -14,14 +14,14 @@
 .top-slider .slider-logo h3 {
     font-family: "Black";
     font-size: 111px;
-    color: #30A46E;
+    color: #EC5E25;
     text-transform: uppercase;
     padding-left: 45px;
     line-height: 94%;
     margin-bottom: 0;
 }
 marquee {
-    background-color: #30A46E;
+    background-color: #EC5E25;
 }
 .epic-seasons-carousel {
     background-color: #000;
@@ -57,11 +57,11 @@ marquee {
     padding: 4px;
     width: 100%;
 }
-.epic-seasons-carousel-slider .slick-track .slick-slide:nth-child(2) img {
-    border: 5px solid #30A46E;
+.epic-seasons-carousel-slider .slick-track .slick-slide:nth-child(3) img {
+    border: 5px solid #EC5E25;
 }
 
-.epic-seasons-carousel-slider .slick-track .slick-slide:nth-child(2):before {
+.epic-seasons-carousel-slider .slick-track .slick-slide:nth-child(3):before {
     content: '';
     position: absolute;
     right: 35px;
@@ -87,10 +87,10 @@ marquee {
     right: 0;
     width: 100%;
     bottom: 50%;
-    border-bottom: 1px solid #30A46E;
+    border-bottom: 1px solid #EC5E25;
 }
 .epic-seasons-carousel .epic-seasons-carousel-header h2 .text-2 {
-    color: #30A46E;
+    color: #EC5E25;
 }
 .epic-seasons-carousel .slick-dots li {
     width: 10px;
@@ -131,7 +131,7 @@ marquee {
 .seasonal-reset-boosters .boosters h3 {
     font-family: "ExtraBold";
     font-size: 40px;
-    color: #FCCA46;
+    color: #C5D92D;
     text-transform: uppercase;
 }
 .seasonal-reset-boosters .reset p,
@@ -156,7 +156,7 @@ marquee {
 }
 .seasonal-reset-boosters .reset:hover,
 .seasonal-reset-boosters .boosters:hover {
-    background-color: #FCCA46;
+    background-color: #C5D92D;
 }
 .seasonal-reset-boosters .reset:hover h3,
 .seasonal-reset-boosters .boosters:hover h3 {
@@ -247,7 +247,7 @@ marquee {
     margin: 0 auto;
 }
 .seasonal-awards:hover .valuable-recruiter{
-    background-image: url("../images/epic-seasons/valuable-recruiter-hover.png");
+    background-image: url("../images/epic-seasons/valuable-recruiter-hover.svg");
     width: 83px;
     height: 79px;
     background-repeat: no-repeat;
@@ -309,7 +309,7 @@ marquee {
     margin: 30px auto;
 }
 .points-system {
-    background-color: #30A46E;
+    background-color: #EC5E25;
 }
 .points-system .points-system-header {
     color: #fff;
@@ -321,11 +321,11 @@ marquee {
 }
 .points-system .points-system-content:hover {
     background: #fff;
-    color: #FCCA46;
+    color: #EC5E25;
 }
 
 .points-system .points-system-content:hover h4{
-     color: #FCCA46;
+     color: #EC5E25;
 }
 .points-system .points-system-content:hover ul li {
     color: #000;
@@ -369,7 +369,7 @@ marquee {
 .leagues-explained .leagues-explained-header h2 {
     font-family: "ExtraBold";
     font-size: 60px;
-    color: #30A46E;
+    color: #EC5E25;
     text-transform: uppercase;
     display: flex;
     justify-content: center;
@@ -386,10 +386,10 @@ marquee {
     right: 0;
     width: 100%;
     bottom: 50%;
-    border-bottom: 1px solid #30A46E;
+    border-bottom: 1px solid #EC5E25;
 }
 .leagues-explained .leagues-explained-header h2 .text-2 {
-    color: #000000;
+    color: #C5D92D;
 }
 .leagues-explained-content p {
     margin: 50px auto;
@@ -403,18 +403,22 @@ marquee {
 }
 .leagues-explained-block .d2d,
 .leagues-explained-block .mdu {
-    font-family: "Bold";
+    font-family: "Medium";
     font-size: 33px;
-    color: #30A46E;
+    color: #EC5E25;
 }
 .leagues-explained-block .mdu {
-    color: #FCCA46;
+    color: #EC5E25;
 }
 .leagues-explained-block .points {
     font-family: "Light";
     font-size:45px;
-    color: #000;
+       color: #EC5E25;
 }
+.leagues-explained-block .points.txt-black{
+    color:#000000
+}
+
 .leagues-explained-block .points span {
     font-size: 23px;
 }
@@ -426,10 +430,10 @@ marquee {
     text-transform: uppercase;
     font-family: "Black";
     font-size: 60px;
-    color: #fff;
+    color: #C5D92D;
 }
 .points-system .points-system-header h3 span {
-    color: #000000;
+    color: #fff;
 }
 .points-system .points-system-header p {
     font-size: 33px;
@@ -443,7 +447,7 @@ marquee {
     text-transform: uppercase;
     width: 50%;
     margin-bottom: 25px;
-    color: #fff
+    color: #C5D92D
 }
 .points-system .points-system-content ul li {
     font-size: 22px;
@@ -461,10 +465,10 @@ marquee {
     font-size: 56px;
     text-transform: uppercase;
     line-height: 106%;
-    color: #30A46E;
+    color: #EC5E25;
 }
 .pro-tip-container .pro-tip-right h2 span{
-    color: #000;
+    color: #C5D92D;
 }
 .pro-tip-container .pro-tip-right .count {
     font-family: "Black";
@@ -495,7 +499,7 @@ marquee {
     text-transform: uppercase;
 }
 .to-permier-container .to-permier-header h3 span{
-    color: #30A46E
+    color: #EC5E25
 }
 .to-permier-container .to-permier-header p {
     font-size: 28px;
@@ -507,7 +511,7 @@ marquee {
     margin-top: 50px;
 }
 .to-permier-container .to-permier-block .to-permier-content h4 {
-    color: #30A46E;
+    color: #C5D92D;
     font-family: "Bold";
     font-size: 56px;
     text-transform: uppercase;
@@ -553,7 +557,7 @@ marquee {
 .area-managers .line-2 {
     font-family: "Bold";
     font-size: 50px;
-    color: #30A46E;
+    color: #EC5E25;
     text-transform: uppercase;
     margin-top: 10px;
 }
@@ -599,7 +603,7 @@ marquee {
         background-repeat: no-repeat;
     }
     .epic-seasons-carousel-slider .slick-track .slick-slide:nth-child(2) img {
-        border: 2px solid #30A46E;
+        border: 2px solid #EC5E25;
     }
     .seasonal-reset-boosters .reset h3, .seasonal-reset-boosters .boosters h3 {
         font-size: 24px;

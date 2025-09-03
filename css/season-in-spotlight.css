@@ -83,7 +83,7 @@ marquee {
     transition: all 500ms ease-in-out;
 }
 .march-may-text h2 {
-    color: #FCCA46;
+    color: #EC5E25;
     font-size: 95px;
     line-height: 94.5%;
     margin-top: 20px;
@@ -131,7 +131,7 @@ marquee {
     z-index: 2;
 }
 .impact h2{
-     color: #FCCA46;
+     color: #FFF;
     font-family: "ExtraBold";
     font-size: 50px;
     text-transform: uppercase;
@@ -158,7 +158,7 @@ marquee {
 }
 
 .impact-content h3{
-    color: #30A46E;
+    color: #C5D92D;
     font-family: "ExtraBold";
     font-size: 40px;
     text-transform: uppercase;
@@ -172,7 +172,7 @@ marquee {
     line-height: 100%;
 }
 .season-in-spotlight-info {
-    background-color: #30A46E;
+    background-color: #EC5E25;
 }
 .season-in-spotlight-info .description {
     padding: 100px 50px;
@@ -184,6 +184,7 @@ marquee {
     text-transform: uppercase;
     width: 75%;
     line-height: 100%;
+    color: #C5D92D;
 }
 .season-in-spotlight-info .description h3:hover {
     color: #000;

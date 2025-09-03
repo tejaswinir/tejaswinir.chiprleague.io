@@ -57,13 +57,13 @@
     right: 0;
     width: 100%;
     bottom: 50%;
-    border-bottom: 1px solid #30A46E;
+    border-bottom: 1px solid #EC5E25;
 }
 .league-spirit .league-spirit-header h2 .text-1 {
     color: #fff;
 }
 .league-spirit .league-spirit-header h2 .text-2 {
-    color: #FCCA46;
+    color: #EC5E25;
 }
 .league-spirit .sub-heading {
     font-size: 33px;
@@ -76,7 +76,7 @@
     margin: 0 auto;
     display: flex;
     width: max-content;
-    background-color: #30A46E;
+    background-color: #EC5E25;
     font-size: 21px;
     color: #fff;
     padding: 15px 42px;
@@ -85,7 +85,7 @@
 }
 .mail-to:hover,
 .mail-to:active {
-    background-color: #FCCA46;
+    background-color: #EC5E25;
 }
 /* questions */
 .questions-container {
@@ -109,10 +109,10 @@
 }
 .questions-header-block h2.active {
     font-family: "Black";
-    color: #FCCA46;
+    color: #EC5E25;
 }
 .questions-header-block h2:hover {
-    color: #FCCA46;
+    color: #EC5E25;
 }
 .question-individual-section-container {
     border-top: 1px solid #fff;
@@ -151,7 +151,7 @@
     display: block;
 }
 .questions-list .question-and-answer.active .question {
-    color: #FCCA46;
+    color: #EC5E25;
 }
 .questions-list .question-and-answer {
     display: flex;
@@ -217,7 +217,7 @@
         display: block;
     } 
     .question-individual-section-container .questions-list.mobile-active h2 {
-        color: #FCCA46;
+        color: #EC5E25;
     }
     .question-individual-section-container .questions-list.mobile-active .toggle-questions-list {
         z-index: 3;

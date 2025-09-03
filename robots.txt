@@ -5,4 +5,5 @@ Disallow: /private/
 Allow: /
 
 # Sitemap
-Sitemap: https://www.league.chipr.com/sitemap.xml
+Sitemap: https://league.chipr.com/sitemap.xml
+
