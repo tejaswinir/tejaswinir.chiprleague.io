@@ -1,3 +1,10 @@
+.text-gold{
+    color:#CFCD93
+}
+.text-teal{
+    color:#3C797E
+}
+
 /* top slider */
 .top-slider .slider-images {
     width: 100%;
@@ -18,7 +25,7 @@
 }
 .top-slider .slider-text .text-2 {
     font-family: "Black";
-    color: #EC5E25;
+    color: #3C797E;
 }
 /* seasons */
 .league-swag-seasons {
@@ -44,7 +51,7 @@
     border: 1px solid #30A56E;
 }
 .seasons-details-tabs .season-tab.fall-tab {
-    border: 5px solid #EC5E25;
+    border: 5px solid #CFCD93;
 }
 .seasons-details-tabs .season-tab.winter-tab {
     border: 1px solid #fff;
@@ -63,7 +70,7 @@
 .seasons-details .seasons-details-col h6 {
     font-family: "Bold";
     font-size: 33px;
-    color: #EC5E25;
+    color: #3C797E;
     text-transform: uppercase;
     text-align: center;
     width: 100%;
@@ -104,7 +111,7 @@
     transition: all 0.5s ease;
 }
 .seasons-details-col .season-detail-col .cta-style {
-    background: #EC5E25;
+    background: #3C797E;
     min-height: 42px;
     width: 100%;
     display: flex;
@@ -117,7 +124,7 @@
 .seasons-details-col .season-detail-col .cta-style.transparent-bg { 
     font-family: "Medium";
     background: transparent;
-    border: 2px solid #EC5E25;
+    border: 2px solid #3C797E;
 }
 .seasons-details-col .season-detail-col .plus-style {
     font-size: 33px;
@@ -132,7 +139,6 @@
 .seasons-details-col .season-detail-col .season-points div {
     font-family: "Light";
     font-size: 36px;
-    color: #fff;
     line-height: 35px;
 }
 .seasons-details-col .season-detail-col .season-points div span {
@@ -142,11 +148,11 @@
 .seasons-details-col .season-detail-col .season-points .mdu {
     font-family: "Bold";
     font-size: 33px;
-    color: #EC5E25;
+    color: #3C797E;
     margin-bottom: 19px;
 }
 .seasons-details-col .season-detail-col .season-points .mdu {
-    color: #FFF;
+    color: #CFCD93;
 }
 .seasons-details-col .season-detail-col .season-detail-col-content .details .offers {
     height: 235px;
@@ -168,7 +174,7 @@
 }
 .earn-certificate p {
     font-family: "Black";
-    color: #C5D92D;
+    color: #CFCD93;
 }
 .earn-certificate .earn-certificate-content {
     justify-content: center;
@@ -177,7 +183,7 @@
 /* visit now */
 .visit-now {
     overflow: hidden;
-    background-color: #EC5E25;
+    background-color: #3C797E;
 }
 .visit-now .visit-now-left {
     display: flex;
@@ -198,7 +204,7 @@
     font-size: 58px;
     line-height: 58px;
     text-transform: uppercase;
-    color: #C5D92D;
+    color: #CFCD93;
 }
 .visit-now .visit-now-left h5 span {
     color: #FFF;

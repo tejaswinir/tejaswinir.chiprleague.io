@@ -80,7 +80,7 @@
 }
 .about-chipr .about-chipr-content {
     height: 411px;
-    background-color: #EC5D25;
+    background-color: #3C797E;
     position: relative;
     color: #fff;
     padding: 8% 11%;
@@ -104,10 +104,10 @@
     color: #000;
 }
 .about-chipr .about-chipr-content:hover .color-white {
-    color: #EC5D25;
+    color: #CFCD93;
 }
 .about-chipr .about-chipr-content:hover .border-white {
-    border: 2px solid #EC5D25 !important;
+    border: 2px solid #CFCD93 !important;
 }
 /* about-chipr-content hover ends */
 .top-slider h5,
@@ -117,16 +117,19 @@
     line-height: 84%;
 }
 .top-slider h1 {
-    color: #EC5D25;
+    color: #CFCD93;
 }
 .top-slider h4 {
     line-height: 91.5%;
-    color: #C5D92D
+    color: #3C797E
 }
 .top-slider p {
     font-family: "Light";
     line-height: 37px;
     margin-top: 35px;
+}
+.color-gold{
+    color:#CFCD93
 }
 @media (min-width: 1400px) {
     .top-slider h5,
@@ -138,7 +141,7 @@
     }
     .top-slider h1 {
         font-size: 170px;
-        color: #EC5D25;
+        color: #CFCD93;
     }
     .top-slider h4 {
         font-size: 70px;

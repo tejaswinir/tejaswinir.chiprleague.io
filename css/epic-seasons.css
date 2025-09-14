@@ -14,14 +14,14 @@
 .top-slider .slider-logo h3 {
     font-family: "Black";
     font-size: 111px;
-    color: #EC5E25;
+    color: #CFCD93;
     text-transform: uppercase;
     padding-left: 45px;
     line-height: 94%;
     margin-bottom: 0;
 }
 marquee {
-    background-color: #EC5E25;
+    background-color: #CFCD93;
 }
 .epic-seasons-carousel {
     background-color: #000;
@@ -58,7 +58,7 @@ marquee {
     width: 100%;
 }
 .epic-seasons-carousel-slider .slick-track .slick-slide:nth-child(3) img {
-    border: 5px solid #EC5E25;
+    border: 5px solid #CFCD93;
 }
 
 .epic-seasons-carousel-slider .slick-track .slick-slide:nth-child(3):before {
@@ -87,10 +87,10 @@ marquee {
     right: 0;
     width: 100%;
     bottom: 50%;
-    border-bottom: 1px solid #EC5E25;
+    border-bottom: 1px solid #CFCD93;
 }
 .epic-seasons-carousel .epic-seasons-carousel-header h2 .text-2 {
-    color: #EC5E25;
+    color: #CFCD93;
 }
 .epic-seasons-carousel .slick-dots li {
     width: 10px;
@@ -120,7 +120,7 @@ marquee {
     color: #83507E;
 }
 .seasonal-reset-boosters {
-    background: #252422;
+    background: #CFCD93;
     color: #fff;
 }
 .seasonal-reset-boosters .reset,
@@ -131,7 +131,7 @@ marquee {
 .seasonal-reset-boosters .boosters h3 {
     font-family: "ExtraBold";
     font-size: 40px;
-    color: #C5D92D;
+    color: #3C797E;
     text-transform: uppercase;
 }
 .seasonal-reset-boosters .reset p,
@@ -153,10 +153,6 @@ marquee {
     width: 63px;
     height: 63px;
     background-repeat: no-repeat;
-}
-.seasonal-reset-boosters .reset:hover,
-.seasonal-reset-boosters .boosters:hover {
-    background-color: #C5D92D;
 }
 .seasonal-reset-boosters .reset:hover h3,
 .seasonal-reset-boosters .boosters:hover h3 {
@@ -309,7 +305,7 @@ marquee {
     margin: 30px auto;
 }
 .points-system {
-    background-color: #EC5E25;
+    background-color: #3C797E;
 }
 .points-system .points-system-header {
     color: #fff;
@@ -321,11 +317,11 @@ marquee {
 }
 .points-system .points-system-content:hover {
     background: #fff;
-    color: #EC5E25;
+    color: #CFCD93;
 }
 
 .points-system .points-system-content:hover h4{
-     color: #EC5E25;
+     color: #CFCD93;
 }
 .points-system .points-system-content:hover ul li {
     color: #000;
@@ -369,7 +365,7 @@ marquee {
 .leagues-explained .leagues-explained-header h2 {
     font-family: "ExtraBold";
     font-size: 60px;
-    color: #EC5E25;
+    color: #CFCD93;
     text-transform: uppercase;
     display: flex;
     justify-content: center;
@@ -386,10 +382,10 @@ marquee {
     right: 0;
     width: 100%;
     bottom: 50%;
-    border-bottom: 1px solid #EC5E25;
+    border-bottom: 1px solid #CFCD93;
 }
 .leagues-explained .leagues-explained-header h2 .text-2 {
-    color: #C5D92D;
+    color: #3C797E;
 }
 .leagues-explained-content p {
     margin: 50px auto;
@@ -405,18 +401,20 @@ marquee {
 .leagues-explained-block .mdu {
     font-family: "Medium";
     font-size: 33px;
-    color: #EC5E25;
+}
+.leagues-explained-block .d2d {
+    color: #3C797E;
 }
 .leagues-explained-block .mdu {
-    color: #EC5E25;
+    color: #CFCD93;
 }
 .leagues-explained-block .points {
     font-family: "Light";
     font-size:45px;
-       color: #EC5E25;
+       color: #3C797E;
 }
 .leagues-explained-block .points.txt-black{
-    color:#000000
+    color:#CFCD93
 }
 
 .leagues-explained-block .points span {
@@ -430,7 +428,7 @@ marquee {
     text-transform: uppercase;
     font-family: "Black";
     font-size: 60px;
-    color: #C5D92D;
+    color: #CFCD93;
 }
 .points-system .points-system-header h3 span {
     color: #fff;
@@ -447,7 +445,7 @@ marquee {
     text-transform: uppercase;
     width: 50%;
     margin-bottom: 25px;
-    color: #C5D92D
+    color: #CFCD93
 }
 .points-system .points-system-content ul li {
     font-size: 22px;
@@ -465,10 +463,10 @@ marquee {
     font-size: 56px;
     text-transform: uppercase;
     line-height: 106%;
-    color: #EC5E25;
+    color: #3C797E;
 }
 .pro-tip-container .pro-tip-right h2 span{
-    color: #C5D92D;
+    color: #CFCD93;
 }
 .pro-tip-container .pro-tip-right .count {
     font-family: "Black";
@@ -499,7 +497,7 @@ marquee {
     text-transform: uppercase;
 }
 .to-permier-container .to-permier-header h3 span{
-    color: #EC5E25
+    color: #CFCD93
 }
 .to-permier-container .to-permier-header p {
     font-size: 28px;
@@ -511,7 +509,7 @@ marquee {
     margin-top: 50px;
 }
 .to-permier-container .to-permier-block .to-permier-content h4 {
-    color: #C5D92D;
+    color: #CFCD93;
     font-family: "Bold";
     font-size: 56px;
     text-transform: uppercase;
@@ -557,7 +555,7 @@ marquee {
 .area-managers .line-2 {
     font-family: "Bold";
     font-size: 50px;
-    color: #EC5E25;
+    color: #CFCD93;
     text-transform: uppercase;
     margin-top: 10px;
 }
@@ -603,7 +601,7 @@ marquee {
         background-repeat: no-repeat;
     }
     .epic-seasons-carousel-slider .slick-track .slick-slide:nth-child(2) img {
-        border: 2px solid #EC5E25;
+        border: 2px solid #CFCD93;
     }
     .seasonal-reset-boosters .reset h3, .seasonal-reset-boosters .boosters h3 {
         font-size: 24px;

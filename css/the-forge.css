@@ -54,7 +54,7 @@ marquee {
     scale: 1.05;
 }
 .new-hires-block .new-hires-structured {
-    background-color: #EC5E25;
+    background-color: #3C797E;
 }
 .new-hires-block .new-hires-personal {
     background-color: #fff;
@@ -88,7 +88,7 @@ marquee {
 .d2d-explained .d2d-explained-header h2 {
     font-family: "ExtraBold";
     font-size: 60px;
-    color: #EC5E25;
+    color: #3C797E;
     text-transform: uppercase;
     display: flex;
     justify-content: center;
@@ -105,10 +105,10 @@ marquee {
     right: 0;
     width: 100%;
     bottom: 50%;
-    border-bottom: 1px solid #EC5E25;
+    border-bottom: 1px solid #3C797E;
 }
 .d2d-explained .d2d-explained-header h2 .text-2 {
-    color: #C5D92D;
+    color: #CFCD93;
 }
 .d2d-explained .d2d-explained-content {
     position: relative;

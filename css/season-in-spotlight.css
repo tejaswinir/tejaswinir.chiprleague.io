@@ -83,7 +83,7 @@ marquee {
     transition: all 500ms ease-in-out;
 }
 .march-may-text h2 {
-    color: #EC5E25;
+    color: #CFCD93;
     font-size: 95px;
     line-height: 94.5%;
     margin-top: 20px;
@@ -172,7 +172,7 @@ marquee {
     line-height: 100%;
 }
 .season-in-spotlight-info {
-    background-color: #EC5E25;
+    background-color: #000;
 }
 .season-in-spotlight-info .description {
     padding: 100px 50px;
@@ -184,10 +184,10 @@ marquee {
     text-transform: uppercase;
     width: 75%;
     line-height: 100%;
-    color: #C5D92D;
+    color: #3C979E;
 }
 .season-in-spotlight-info .description h3:hover {
-    color: #000;
+    color: #C5D92D;
 }
 .season-in-spotlight-info .description p {
     font-size: 33px;
