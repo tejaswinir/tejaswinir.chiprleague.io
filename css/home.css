@@ -25,7 +25,7 @@
     position: relative;
 }
 .slider-images .slider-image-1 {
-    background: url(../images/home/slider1.avif);
+    background: url(../images/home/slider1.png);
     background-size: cover;
 }
 .top-slider .slider-images img {

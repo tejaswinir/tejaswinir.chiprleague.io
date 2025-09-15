@@ -1,6 +1,6 @@
 .top-slider .slider-images {
     position: relative;
-    background: url("../images/epic-seasons/slider1.avif");
+    background: url("../images/epic-seasons/slider1.jpg");
     background-size: cover;
     height: calc(100vh - 205px);
     background-position: center;

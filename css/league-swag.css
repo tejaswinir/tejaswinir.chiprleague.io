@@ -155,7 +155,7 @@
     color: #CFCD93;
 }
 .seasons-details-col .season-detail-col .season-detail-col-content .details .offers {
-    height: 235px;
+    height: 150px;
 }
 .seasons-details-col .season-detail-col .season-detail-col-content .hover-details {
     display: none;
@@ -225,7 +225,7 @@
     text-decoration: none;
     padding: 12px 35px;
 }
-.visit-now-left-content .visit-shop:hover {
+.visit-now-left-content .visit-shop {
     color: #000;
     background: #fff;
 }
@@ -233,7 +233,7 @@
     scale: 1;
     transition: all 0.5s ease;
 }
-.visit-now:hover .visit-now-right img {
+.visit-now .visit-now-right img {
     scale: 1.1;
 }
 
@@ -346,7 +346,7 @@
         line-height: 118%;
         margin-bottom: 30px;
     }
-    .visit-now:hover .visit-now-right img {
+    .visit-now .visit-now-right img {
         scale: 1;
     }
 }
@@ -388,12 +388,6 @@
     .seasons-details-col .top-image img {
         width: 165px;
     }
-    .seasons-details-col .season-detail-col:hover .top-image {
-        top: -130px;
-    }
-    .seasons-details-col .season-detail-col:hover .top-image img {
-        width: 130px;
-    }
     .seasons-details .seasons-details-col h6 {
         font-size: 28px;
         margin: 75px auto 30px;
@@ -420,31 +414,6 @@
     }
 }
 @media (min-width: 992px) {
-    .seasons-details-col .season-detail-col:hover {
-        background: none;
-    }
-    .seasons-details .seasons-details-col .season-detail-col:hover .base-league-content,
-    .seasons-details .seasons-details-col .season-detail-col:hover  .advanced-league-content,
-    .seasons-details .seasons-details-col .season-detail-col:hover  .pro-league-content,
-    .seasons-details .seasons-details-col .season-detail-col:hover  .premier-league-content {
-        padding: 0;
-    }
-    .seasons-details-col .season-detail-col:hover .season-detail-col-content .details {
-        display: none;
-    }
-    .seasons-details-col .season-detail-col:hover .season-detail-col-content .hover-details {
-        display: block;
-    } 
-    .seasons-details .seasons-details-col:hover .base-league-content:hover {
-        padding: 0;
-    }
-
-    .seasons-details-col .season-detail-col:hover .top-image{
-        top: -160px;
-    }
-    .seasons-details-col .season-detail-col:hover .top-image img{
-        width: 160px;
-    }
     .seasons-details-col .season-detail-col .hover-details .hover-text {
         font-size: 33px;
         line-height: 96%;
