@@ -25,7 +25,7 @@
 }
 .top-slider .slider-text .text-2 {
     font-family: "Black";
-    color: #3C797E;
+    color: #CFCD93;
 }
 /* seasons */
 .league-swag-seasons {
@@ -155,7 +155,7 @@
     color: #CFCD93;
 }
 .seasons-details-col .season-detail-col .season-detail-col-content .details .offers {
-    height: 150px;
+    height: 160px;
 }
 .seasons-details-col .season-detail-col .season-detail-col-content .hover-details {
     display: none;
@@ -301,7 +301,7 @@
         width: 76%;
     }
     .seasons-details-col .season-detail-col .season-detail-col-content .details .offers {
-        height: 146px;
+        height: 150px;
     }   
     .seasons-details-col .season-detail-col .cta-style {
         min-height: auto;
