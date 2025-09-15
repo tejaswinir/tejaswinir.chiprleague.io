@@ -229,6 +229,9 @@
     color: #000;
     background: #fff;
 }
+.visit-now-left-content .visit-shop:hover{
+    background: #CFCD93;
+}
 .visit-now-right img {
     scale: 1;
     transition: all 0.5s ease;
